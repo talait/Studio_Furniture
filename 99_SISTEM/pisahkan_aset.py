@@ -30,7 +30,7 @@ s.name='STUDIO | Nakas kosong'
 s['ns_package_layout']='Studio Furniture / 1.0'
 s.ns_studio.output='//../04_HASIL_RENDER/'
 s.render.filepath='//../04_HASIL_RENDER/preview.png'
-s.camera=bpy.data.objects['CAM | STUDIO OVERVIEW']
+s.camera=bpy.data.objects.get('CAM_STUDIO_OVERVIEW') or bpy.data.objects['CAM | STUDIO OVERVIEW']
 for obj in s.objects:
     if obj.get('ns_equipment'):obj.visible_camera=True;obj.visible_shadow=True
 s.ns_studio.preview_mode='FAST';ns.apply_preview(s)

@@ -1,0 +1,23 @@
+{
+  "versi": 1,
+  "catatan": "Daftar latar (backdrop) studio. 'seamless' memakai cyclorama bawaan template; 'lantai_dinding' memasang lantai + dinding terpisah dengan garis horizon tegas. 'koleksi' = kata pada nama produk/file yang otomatis memilih latar ini saat impor. Warna dalam linear RGB 0-1. Tambah/ubah latar dari panel (Simpan latar sebagai preset) atau edit file ini.",
+  "latar": [
+    {
+      "id": "seamless_abu",
+      "nama": "Seamless abu hangat (standar)",
+      "tipe": "seamless",
+      "koleksi": [],
+      "warna": [0.42, 0.40, 0.37]
+    },
+    {
+      "id": "doheny",
+      "nama": "Doheny · lantai pasir + dinding plester hangat",
+      "tipe": "lantai_dinding",
+      "koleksi": ["Doheny"],
+      "lantai": {"warna": [0.45, 0.37, 0.29], "variasi": 0.12, "kekasaran": 0.75, "bump_skala": 120, "bump_kuat": 0.15},
+      "dinding": {"warna": [0.75, 0.69, 0.63], "variasi": 0.12, "kekasaran": 0.9, "bump_skala": 40, "bump_kuat": 0.08, "jarak_m": 1.1},
+      "dunia": {"warna": [0.80, 0.76, 0.70], "kuat": 0.25},
+      "matahari": {"aktif": true, "energi": 6.0, "sudut_deg": 6, "warna": [1.0, 0.92, 0.82], "arah": [0.75, 0.55, -0.55]}
+    }
+  ]
+}

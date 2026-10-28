@@ -38,11 +38,12 @@ hashes = {str(p): sha(p) for p in [template, product, library]}
 # --- Studio kosong -----------------------------------------------------------
 s = bpy.context.scene
 check('Studio starts empty', s.ns_studio.product is None and not ns.product_objects(s))
-check('Five camera presets remain', sum(bool(o.get('ns_shot')) for o in s.objects) == 5)
+check('Every angle has one camera preset', sorted(o['ns_shot'] for o in s.objects if o.get('ns_shot')) == sorted(ns.SHOT_IDS))
+check('Camera names have no spaces (CAM_01_HERO ...)', all(o.name == f"CAM_{ns.SHOT_IDS.index(o['ns_shot']) + 1:02d}_{o['ns_shot']}" for o in s.objects if o.get('ns_shot')))
 check('Light rig complete (at least twenty lights)', sum(o.type == 'LIGHT' for o in s.objects) >= 20)
 check('No product texture embedded in empty studio', not any('white_oak' in i.name for i in bpy.data.images))
 rigs = [c for c in bpy.data.collections if c.get('ns_light_shot')]
-check('Five light rigs exist', len(rigs) == 5)
+check('Every angle has a light rig', sorted(r['ns_light_shot'] for r in rigs) == sorted(ns.SHOT_IDS))
 for rig in rigs:
     roles = [str(o.get('ns_role', '')).split(' ')[0] for o in rig.all_objects if o.type == 'LIGHT']
     check('Rig ' + rig['ns_light_shot'] + ' has every light role once', sorted(roles) == sorted(ns.LIGHT_ROLES))
@@ -108,6 +109,60 @@ check('Sync operator copies active angle to the others', bpy.ops.ns.sync_lightin
       and len({round(o.data.energy, 3) for o, _, r in ns.rig_lights() if r == 'Fill'}) == 1)
 bpy.ops.ns.reset_lighting(scope='CATEGORY')
 s.ns_studio.shot = 'HERO'
+
+# --- Angle samping/belakang memutar produk, close-up mendekat ----------------------
+def dims():
+    lo, hi = ns.product_bounds(s)
+    return hi - lo, lo
+size0, _ = dims()
+s.ns_studio.shot = 'SIDE_L'
+size, lo = dims()
+check('Side-left angle turns product 90° on the floor', abs(size.x - size0.y) < 1e-4 and abs(size.y - size0.x) < 1e-4 and abs(lo.z) < 1e-4)
+s.ns_studio.shot = 'BACK'
+size, lo = dims()
+check('Back angle keeps product centred on the floor', abs(lo.z) < 1e-4 and abs(lo.x + size.x / 2) < 1e-4 and abs(lo.y + size.y / 2) < 1e-4)
+s.ns_studio.shot = 'HERO'
+size, _ = dims()
+check('Returning to Hero restores product orientation', all(abs(a - b) < 1e-4 for a, b in zip(size, size0)))
+check('Base and close-up cameras sit closer than Hero',
+      all(ns.camera_for(s, shot).data.dof.focus_distance < ns.camera_for(s, 'HERO').data.dof.focus_distance for shot in ('BASE', 'CLOSEUP')))
+check('Render files named after camera without spaces', ns.render_name(s, 'LEFT') == 'CAM_03_LEFT')
+plane = bpy.data.objects.new('Lantai uji', bpy.data.meshes.new('Lantai uji'))
+plane.data.from_pydata([(-5, -5, 0), (5, -5, 0), (5, 5, 0), (-5, 5, 0)], [], [(0, 1, 2, 3)])
+box = bpy.data.objects.new('Produk uji', bpy.data.meshes.new('Produk uji'))
+box.data.from_pydata([(x, y, z) for x in (0, .5) for y in (0, .4) for z in (0, .5)], [], [])
+studio_coll = bpy.data.collections.new('DS_Studio'); studio_coll.objects.link(box)
+check('Import skips large flat floors/walls from the source file', ns.scene_clutter(plane))
+check('Import skips objects in a source "Studio" collection', ns.scene_clutter(box))
+for tmp in (plane, box):
+    bpy.data.objects.remove(tmp)
+bpy.data.collections.remove(studio_coll)
+check('Overview camera named without spaces', ns.overview_camera() is not None and ns.overview_camera().name == 'CAM_STUDIO_OVERVIEW')
+
+# --- Render di luar addon (render server): cukup ganti scene.camera ----------------------
+s.camera = ns.camera_for(s, 'SIDE_L'); s.frame_set(s.frame_current)
+size, lo = dims()
+check('Plain camera switch turns product (driver, no add-on call)', abs(size.x - size0.y) < 1e-4 and abs(lo.z) < 1e-4)
+check('Every rig light & equipment follows the active camera (driver)',
+      all(ns._has_driver(o, 'hide_render') for r in bpy.data.collections if r.get('ns_light_shot') for o in r.all_objects))
+s.ns_studio.shot = 'HERO'
+
+# --- Kunci kamera per produk --------------------------------------------------------------
+hero = ns.camera_for(s, 'HERO')
+s.ns_studio.camera_edit = True
+check('Camera edit shows rule-of-thirds grid', hero.data.show_composition_thirds and not hero.data.show_composition_golden)
+s.ns_studio.camera_grid = 'GOLDEN'
+check('Grid type switches to golden ratio', hero.data.show_composition_golden and not hero.data.show_composition_thirds)
+s.ns_studio.camera_edit = False
+check('Grid hidden when camera edit is off', not hero.data.show_composition_golden and not hero.data.show_composition_thirds)
+s.ns_studio.camera_grid = 'THIRDS'
+hero.location.x += 0.15; hero.data.lens = 72.0; bpy.context.view_layer.update()
+custom = hero.matrix_world.copy()
+check('Lock camera for this product', bpy.ops.ns.lock_camera(scope='ANGLE') == {'FINISHED'} and ns.locked_shots(s) == ['HERO'])
+ns.fit_cameras(s)
+check('Auto framing keeps the locked camera', (hero.matrix_world.translation - custom.translation).length < 1e-4 and abs(hero.data.lens - 72.0) < 1e-6)
+check('Unlock returns to auto framing', bpy.ops.ns.unlock_camera(scope='ANGLE') == {'FINISHED'}
+      and (hero.matrix_world.translation - custom.translation).length > 1e-3 and not ns.locked_shots(s))
 
 # --- Ganti finish (mengikuti data produk) ---------------------------------------
 check('Hardware catalog readable from package', 'HANDLE' in ns.finish_catalog())

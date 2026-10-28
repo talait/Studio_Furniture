@@ -30,6 +30,19 @@ Saat produk diimpor, rig lampu otomatis diperbesar mengikuti ukuran produk (labe
 
 Buka `PANDUAN_LAMPU.html` untuk foto berlabel dan denah lampu.
 
+## Latar (backdrop) per koleksi
+
+Kotak **LATAR / BACKDROP** di panel memilih latar studio. Daftarnya ada di `02_PRODUK/_LATAR/latar.json`:
+
+- **Seamless abu hangat (standar)**: cyclorama bawaan template; warnanya bisa diubah langsung (Backdrop).
+- **Doheny**: lantai pasir + dinding plester hangat dengan garis horizon tegas, matahari rendah dari kiri depan, dan ambient hangat, mengikuti foto referensi dresser Doheny.
+
+Bila **Latar otomatis per koleksi** aktif, impor produk memilih latar yang kata `koleksi`-nya ada di nama produk/file (mis. semua produk `Doheny_*` memakai latar Doheny). Pilihan manual di dropdown tetap bisa mengganti setelahnya. Dinding otomatis diletakkan di belakang produk dan di belakang lampu rim, jadi produk besar tetap aman.
+
+Mengubah atau menambah latar untuk koleksi lain: atur warna Lantai/Dinding, Matahari, dan Ambient di panel, lalu klik **Simpan latar sebagai preset**. Isi nama (nama yang sama menimpa preset itu) dan koleksi (pisahkan koma, mis. `Zuma, Calabasas`). Preset tersimpan ke `latar.json` dan langsung muncul di dropdown semua sesi. File itu juga bisa diedit langsung (warna linear RGB 0–1; `dinding.jarak_m` = jarak dinding dari belakang produk).
+
+Matahari menambah cahaya ke produk; exposure hasil kalibrasi swatch dibuat tanpa matahari. Untuk render yang harus akurat terhadap swatch, turunkan Matahari atau pakai latar standar.
+
 ## Menyimpan dan melanjutkan
 
 Tekan Ctrl+S untuk menyimpan sesi. Untuk memberi nama, klik **Simpan proyek sebagai...**, pilih lokasi di `03_PROYEK`. Jangan menyimpan sesi ke dalam `01_STUDIO` atau menimpa file sumber di `02_PRODUK`.
@@ -38,7 +51,33 @@ Untuk melanjutkan, buka **BUKA_PROYEK_TERSIMPAN.cmd** lalu pilih file sesi. Pemb
 
 ## Render
 
-Folder output disiapkan di `04_HASIL_RENDER/<nama_sesi>/`. Pilih kualitas, centang angle, lalu gunakan render batch. Setiap batch membuat subfolder baru. **Render angle aktif** menampilkan hasil di jendela render; simpan gambarnya secara manual jika perlu. Gunakan batch untuk penulisan PNG otomatis.
+Folder output disiapkan di `04_HASIL_RENDER/<nama_sesi>/`. Pilih kualitas, centang angle, lalu gunakan render batch. Setiap batch membuat subfolder baru. **Render angle aktif** menampilkan hasil di jendela render; simpan gambarnya secara manual jika perlu. Gunakan batch untuk penulisan PNG otomatis. Nama file mengikuti nama kamera tanpa spasi, mis. `CAM_03_LEFT.png`.
+
+### Angle kamera
+
+| Kamera | Angle | Catatan |
+|---|---|---|
+| `CAM_01_HERO` | Hero 3/4 kanan | |
+| `CAM_02_FRONT` | Depan | |
+| `CAM_03_LEFT` | Hero 3/4 kiri | |
+| `CAM_04_SIDE` | Samping kanan | profil; produk diputar −90° |
+| `CAM_05_DETAIL` | Detail | |
+| `CAM_06_SIDE_L` | Samping kiri | profil; produk diputar 90° |
+| `CAM_07_BACK` | Belakang 3/4 | produk diputar 180° |
+| `CAM_08_BASE` | Detail kaki / bawah | close-up sudut rendah |
+| `CAM_09_CLOSEUP` | Close-up material | sudut depan-atas kanan |
+
+Backdrop hanya menghadap depan, jadi untuk angle samping dan belakang kamera tetap di depan dan produk diputar selama kamera itu aktif. Putaran produk dan rig lampu tiap angle disimpan sebagai *driver* yang membaca kamera aktif, jadi hasilnya benar juga saat file dirender per kamera di luar panel (render server, render semua kamera). Kamera yang ditambahkan sendiri perlu properti `ns_shot_index` (nomor angle yang lampunya dipakai) dan `ns_product_yaw` (derajat putaran produk). Framing semua kamera, termasuk close-up, dihitung dari ukuran produk saat impor atau lewat **Atur framing**.
+
+### Mengatur & mengunci posisi kamera
+
+Di kotak **KAMERA ANGLE INI**:
+
+1. Pilih angle, lalu nyalakan **Edit posisi kamera**. Putar, Perbesar/Perkecil, dan Geser kiri/kanan/atas/bawah sekarang memindah kamera itu sendiri (bukan layar); mouse di viewport juga. Lensa mm bisa diubah untuk close-up yang lebih rapat.
+2. Klik **Kunci angle ini untuk produk ini** (atau **Kunci semua angle**). Posisi, lensa, dan fokus disimpan di produk aktif, relatif terhadap produk, jadi tetap pas setelah produk dipindah atau diputar 90°.
+3. **Atur framing**, impor ulang, dan berpindah produk tidak mengubah angle yang terkunci; produk lain di sesi yang sama tetap memakai framing otomatis. **Lepas kunci angle ini** kembali ke framing otomatis.
+
+File sesi lama belum punya angle 06–09. Tambahkan dengan `blender -b --python 99_SISTEM/tambah_angle_kamera.py -- "03_PROYEK/<sesi>.blend"`; tanpa argumen skrip memperbarui template.
 
 Saat ini hanya preset kategori Nakas tersedia. Produk kategori lain membutuhkan preset tersendiri sebelum pencahayaan dan framingnya dapat dianggap siap.
 
