@@ -1742,10 +1742,13 @@ def apply_latar(scene, latar_id):
 
 
 def latar_for_product(name):
-    """Preset pertama yang kata 'koleksi'-nya ada di nama produk/file (tanpa beda huruf besar)."""
+    """Preset pertama yang kata 'koleksi'-nya ada di nama produk/file (tanpa beda huruf besar).
+    Produk tanpa koleksi memakai preset umum pertama (koleksi kosong), bukan latar produk
+    sebelumnya, supaya hasil impor tidak bergantung pada urutan impor."""
     low = name.lower()
-    return next((p['id'] for p in latar_catalog()
-                 if any(k and k.lower() in low for k in p.get('koleksi', []))), None)
+    catalog = latar_catalog()
+    return next((p['id'] for p in catalog if any(k and k.lower() in low for k in p.get('koleksi', []))),
+                next((p['id'] for p in catalog if not p.get('koleksi')), None))
 
 
 def latar_updated(settings, context):
@@ -2705,7 +2708,13 @@ class NS_OT_Import(bpy.types.Operator, ImportHelper):
             detect_wall_flush(context.scene)
             fit_cameras(context.scene)
             apply_rig_scale(context.scene, rig_scale_factor(context.scene))
-            latar_id = latar_for_product(root.name + ' ' + filepath) if context.scene.ns_studio.latar_otomatis else None
+            # Cocokkan koleksi pada path relatif paket saja: nama folder di PC lain tidak ikut menentukan latar.
+            pkg = package_root()
+            try:
+                where = str(Path(filepath).resolve().relative_to(pkg)) if pkg else Path(filepath).name
+            except ValueError:
+                where = Path(filepath).name
+            latar_id = latar_for_product(root.name + ' ' + where) if context.scene.ns_studio.latar_otomatis else None
             if latar_id and latar_id != context.scene.get('ns_latar'):
                 select_latar(context.scene, latar_id)
             else:
@@ -2951,12 +2960,19 @@ class NS_OT_LightingView(bpy.types.Operator):
         return {'FINISHED'}
 
 
+def _is_package(path):
+    return (path/'01_STUDIO').is_dir() and (path/'02_PRODUK').is_dir()
+
+
 def package_root():
-    if bpy.data.filepath:
-        for parent in Path(bpy.data.filepath).parents:
-            if (parent/'01_STUDIO').is_dir() and (parent/'02_PRODUK').is_dir():
-                return parent
-    return None
+    """Folder Studio_Furniture: dari file yang terbuka, lalu dari lokasi add-on ini (dimuat
+    mulai_sesi.py dari 99_SISTEM), lalu variabel STUDIO_FURNITURE_ROOT (add-on yang dipasang
+    lewat Preferences dan file yang dibuka dari luar paket, mis. di PC lain)."""
+    candidates = list(Path(bpy.data.filepath).parents) if bpy.data.filepath else []
+    candidates.append(Path(__file__).resolve().parents[1])
+    if os.environ.get('STUDIO_FURNITURE_ROOT'):
+        candidates.append(Path(os.environ['STUDIO_FURNITURE_ROOT']))
+    return next((p for p in candidates if _is_package(p)), None)
 
 
 class NS_OT_LoadExample(bpy.types.Operator):

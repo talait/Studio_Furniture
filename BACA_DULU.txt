@@ -31,5 +31,22 @@ Impor menyalin produk ke sesi. Mengedit sesi tidak mengubah file produk sumber.
 Perubahan file produk sumber tidak otomatis memperbarui sesi yang sudah dibuat.
 Saat ini hanya preset kategori Nakas yang tersedia.
 
+PASANG DI PC LAIN
+1. Pasang Blender 5.2 (lokasi standar C:\Program Files\Blender Foundation\Blender 5.2).
+   Lokasi lain: isi variabel lingkungan BLENDER_EXE dengan path blender.exe.
+2. Pasang Git dan Git LFS (https://git-lfs.com), lalu:
+     git lfs install
+     git clone https://github.com/talait/Studio_Furniture.git
+   JANGAN pakai "Download ZIP" dari GitHub: ZIP hanya berisi file penunjuk LFS (131 byte),
+   bukan file .blend, sehingga Blender gagal membuka template dan produk.
+   Sudah terlanjur clone tanpa LFS: jalankan "git lfs pull" di folder Studio_Furniture.
+3. Windows baru memblokir skrip PowerShell (ExecutionPolicy Restricted). Bila MULAI_STUDIO.cmd
+   langsung menutup dengan pesan "running scripts is disabled", jalankan sekali di PowerShell:
+     Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+4. Add-on TIDAK perlu dipasang lewat Preferences: MULAI_STUDIO.cmd memuat 99_SISTEM\nakas_studio_tools.py
+   langsung dari paket. Bila add-on tetap dipasang di Preferences, isi variabel STUDIO_FURNITURE_ROOT
+   dengan folder Studio_Furniture agar latar dan finish ditemukan.
+5. Sesi lama (03_PROYEK) dan hasil render tidak ikut di git; salin manual bila perlu.
+
 Simpan seluruh folder Studio_Furniture sebagai satu paket saat memindahkan komputer.
 Blender yang digunakan: 5.2. File tekstur produk sudah dikemas di file .blend.

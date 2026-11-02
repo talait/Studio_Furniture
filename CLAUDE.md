@@ -27,6 +27,10 @@ Bahasa proyek: Indonesia (nama file, fungsi, komentar, label UI). Pertahankan it
 - Biner (`.blend`, gambar, `.stl`, `.dxf`, `.pdf`) lewat **Git LFS** (`.gitattributes`). `.blend` tidak bisa di-merge:
   bila dua cabang mengubah file yang sama, pilih satu versi lalu ulangi perubahan lewat skripnya.
 - Add-on mem-pack tekstur eksternal otomatis saat menyimpan (`_autopack_save_pre`), jadi file .blend membawa teksturnya.
+- **Portabel antar-PC:** jangan menulis path absolut (`C:\Users\...`) di skrip runtime; pakai `package_root()`
+  (addon) atau `Path(__file__).resolve().parents[1]` (skrip 99_SISTEM). Blender dicari lewat `BLENDER_EXE` → lokasi
+  standar → `Blender 5.*` di Program Files → PATH. Tekstur harus ter-pack di .blend yang di-commit (cek: tidak ada
+  `bpy.data.images` eksternal). Cara pasang di PC lain ada di `BACA_DULU.txt` (wajib Git LFS, jangan Download ZIP).
 - Preset latar baru: tambahkan entri di `02_PRODUK/_LATAR/latar.json` (`koleksi` = kata pada nama produk yang memilihnya otomatis).
 
 ## Git
