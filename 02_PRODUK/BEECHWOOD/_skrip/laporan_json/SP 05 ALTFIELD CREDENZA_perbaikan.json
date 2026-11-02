@@ -1,0 +1,533 @@
+{
+ "log": [
+  "Carcass: x ±900.0 (dalam 871.9), z 191.2/219.4 .. 871.9/900.0, y -261.6..329.1",
+  "Carcass shell terbuka (23 muka) diganti 4 panel tertutup: top, panel dasar, sisi kiri, sisi kanan (mitre 45°); versi lama ke _ARSIP",
+  "Sekat vertikal 1–3 dibangun ulang jadi panel tertutup (shell lama punya muka dalam), tinggi dipaskan antara dasar & top",
+  "Disimpan"
+ ],
+ "part": [
+  {
+   "nama": "Handle pintu 1",
+   "collection": "Pintu 1",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "min_mm": [
+    -464.1,
+    -329.1,
+    753.7
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 63,
+   "zero_area": 0,
+   "faces": 7800
+  },
+  {
+   "nama": "Handle pintu 2",
+   "collection": "Pintu 2",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "min_mm": [
+    -442.6,
+    -329.1,
+    753.7
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 83,
+   "zero_area": 0,
+   "faces": 7768
+  },
+  {
+   "nama": "Handle pintu 3",
+   "collection": "Pintu 3",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "min_mm": [
+    437.0,
+    -329.1,
+    753.7
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 61,
+   "zero_area": 0,
+   "faces": 7692
+  },
+  {
+   "nama": "Handle pintu 4",
+   "collection": "Pintu 4",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "min_mm": [
+    458.5,
+    -329.1,
+    753.7
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 91,
+   "zero_area": 0,
+   "faces": 7780
+  },
+  {
+   "nama": "Kaki kanan",
+   "collection": "03 Kaki",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    39.4,
+    590.6,
+    191.2
+   ],
+   "min_mm": [
+    283.7,
+    -261.6,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 139,
+   "zero_area": 0,
+   "faces": 1333
+  },
+  {
+   "nama": "Kaki kiri",
+   "collection": "03 Kaki",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    39.4,
+    590.6,
+    191.2
+   ],
+   "min_mm": [
+    -323.1,
+    -261.6,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 172,
+   "zero_area": 0,
+   "faces": 1348
+  },
+  {
+   "nama": "Palang kaki tengah",
+   "collection": "03 Kaki",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1620.0,
+    39.4,
+    191.2
+   ],
+   "min_mm": [
+    -810.0,
+    14.1,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "purus-lubang ke kaki kiri & kanan",
+   "nonmanifold": 97,
+   "zero_area": 0,
+   "faces": 1068
+  },
+  {
+   "nama": "Panel belakang",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1761.7,
+    6.8,
+    670.5
+   ],
+   "min_mm": [
+    -880.9,
+    322.3,
+    210.4
+   ],
+   "potong": "",
+   "sambungan": "masuk alur 9 mm di sisi, top & dasar (sesuai DWG)",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Panel dasar (mitre 45°)",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1800.0,
+    590.6,
+    28.1
+   ],
+   "min_mm": [
+    -900.0,
+    -261.6,
+    191.3
+   ],
+   "potong": "1800 x 590.6 x 28.1",
+   "sambungan": "mitre 45° di keempat sudut kotak (sesuai DWG) + lamello/dowel",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Pintu 1",
+   "collection": "Pintu 1",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.8,
+    28.1,
+    708.8
+   ],
+   "min_mm": [
+    -900.0,
+    -289.7,
+    191.2
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 138,
+   "zero_area": 0,
+   "faces": 1420
+  },
+  {
+   "nama": "Pintu 2",
+   "collection": "Pintu 2",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.7,
+    28.1,
+    708.8
+   ],
+   "min_mm": [
+    -448.9,
+    -289.7,
+    191.2
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 116,
+   "zero_area": 0,
+   "faces": 1422
+  },
+  {
+   "nama": "Pintu 3",
+   "collection": "Pintu 3",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.7,
+    28.1,
+    708.8
+   ],
+   "min_mm": [
+    1.1,
+    -289.7,
+    191.2
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 124,
+   "zero_area": 0,
+   "faces": 1405
+  },
+  {
+   "nama": "Pintu 4",
+   "collection": "Pintu 4",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.7,
+    28.1,
+    708.8
+   ],
+   "min_mm": [
+    452.3,
+    -289.7,
+    191.2
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 104,
+   "zero_area": 0,
+   "faces": 1404
+  },
+  {
+   "nama": "Rak bay 1",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    411.7,
+    583.9,
+    22.5
+   ],
+   "min_mm": [
+    -871.9,
+    -261.6,
+    534.9
+   ],
+   "potong": "",
+   "sambungan": "masuk alur 4 mm di sekat / sisi (sesuai DWG)",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 10
+  },
+  {
+   "nama": "Rak bay 2",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    429.7,
+    583.9,
+    22.5
+   ],
+   "min_mm": [
+    -439.9,
+    -261.6,
+    534.4
+   ],
+   "potong": "",
+   "sambungan": "masuk alur 4 mm di sekat / sisi (sesuai DWG)",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 14
+  },
+  {
+   "nama": "Rak bay 3",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    429.7,
+    583.9,
+    22.5
+   ],
+   "min_mm": [
+    10.5,
+    -261.6,
+    534.4
+   ],
+   "potong": "",
+   "sambungan": "masuk alur 4 mm di sekat / sisi (sesuai DWG)",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 14
+  },
+  {
+   "nama": "Rak bay 4",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    411.7,
+    583.9,
+    22.5
+   ],
+   "min_mm": [
+    460.1,
+    -261.6,
+    534.9
+   ],
+   "potong": "",
+   "sambungan": "masuk alur 4 mm di sekat / sisi (sesuai DWG)",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 10
+  },
+  {
+   "nama": "Sekat vertikal 1 28 mm",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    28.1,
+    583.9,
+    652.5
+   ],
+   "min_mm": [
+    -464.1,
+    -261.6,
+    219.4
+   ],
+   "potong": "652.5 x 583.9 x 28.1",
+   "sambungan": "dado ke panel dasar & top; rak bay masuk alur 4 mm",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Sekat vertikal 2 28 mm",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    28.1,
+    583.9,
+    652.5
+   ],
+   "min_mm": [
+    -14.1,
+    -261.6,
+    219.4
+   ],
+   "potong": "652.5 x 583.9 x 28.1",
+   "sambungan": "dado ke panel dasar & top; rak bay masuk alur 4 mm",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Sekat vertikal 3 28 mm",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    28.1,
+    583.9,
+    652.5
+   ],
+   "min_mm": [
+    436.3,
+    -261.6,
+    219.4
+   ],
+   "potong": "652.5 x 583.9 x 28.1",
+   "sambungan": "dado ke panel dasar & top; rak bay masuk alur 4 mm",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Sisi kanan (mitre 45°)",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    28.1,
+    590.6,
+    708.8
+   ],
+   "min_mm": [
+    871.9,
+    -261.6,
+    191.3
+   ],
+   "potong": "708.7 x 590.6 x 28.1",
+   "sambungan": "mitre 45° di keempat sudut kotak (sesuai DWG) + lamello/dowel",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Sisi kiri (mitre 45°)",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    28.1,
+    590.6,
+    708.8
+   ],
+   "min_mm": [
+    -900.0,
+    -261.6,
+    191.3
+   ],
+   "potong": "708.7 x 590.6 x 28.1",
+   "sambungan": "mitre 45° di keempat sudut kotak (sesuai DWG) + lamello/dowel",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Top (mitre 45°)",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1800.0,
+    590.6,
+    28.1
+   ],
+   "min_mm": [
+    -900.0,
+    -261.6,
+    871.9
+   ],
+   "potong": "1800 x 590.6 x 28.1",
+   "sambungan": "mitre 45° di keempat sudut kotak (sesuai DWG) + lamello/dowel",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  }
+ ],
+ "masalah": [],
+ "tembus": [
+  [
+   "Rak bay 1",
+   "Sekat vertikal 1 28 mm",
+   4,
+   0
+  ],
+  [
+   "Rak bay 2",
+   "Sekat vertikal 1 28 mm",
+   4,
+   0
+  ],
+  [
+   "Rak bay 2",
+   "Sekat vertikal 2 28 mm",
+   4,
+   0
+  ],
+  [
+   "Rak bay 3",
+   "Sekat vertikal 2 28 mm",
+   4,
+   0
+  ],
+  [
+   "Rak bay 3",
+   "Sekat vertikal 3 28 mm",
+   4,
+   0
+  ],
+  [
+   "Rak bay 4",
+   "Sekat vertikal 3 28 mm",
+   4,
+   0
+  ]
+ ],
+ "bbox_mm": [
+  [
+   -900.0,
+   -329.1,
+   0.0
+  ],
+  [
+   900.0,
+   329.1,
+   900.0
+  ]
+ ],
+ "unparented": [],
+ "collection": [
+  "PROD | Altfield Credenza SP 05 (1)",
+  "  01 Carcass (12)",
+  "  02 Pintu (0)",
+  "    Pintu 1 (2)",
+  "    Pintu 2 (2)",
+  "    Pintu 3 (2)",
+  "    Pintu 4 (2)",
+  "  03 Kaki (3)",
+  "  _ARSIP sisa DWG (tidak dipakai) (7)"
+ ]
+}

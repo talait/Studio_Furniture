@@ -1,0 +1,181 @@
+{
+ "nama": "Beechwood Tallboy",
+ "kategori": "TALLBOY",
+ "dwg": "BEECHWOOD TALLBOY.dwg",
+ "skala": 0.001,
+ "mode": "solid",
+ "sumber_obj": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\obj\\BEECHWOOD TALLBOY.obj",
+ "file_out": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD TALLBOY.blend",
+ "thumb": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\thumb\\BEECHWOOD TALLBOY.png",
+ "laporan_json": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\laporan\\BEECHWOOD TALLBOY.json",
+ "geometry_source": "DWG 2018 3DSOLID (ACIS SAB) -> tessellasi dwg2obj (LibreDWG + ezdxf)",
+ "unit_assumption": "angka DWG dibaca sebagai mm (INSUNITS=4 mm)",
+ "weld_m": 1e-05,
+ "part": {
+  "2D1": {
+   "nama": "Kaki depan kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2D4": {
+   "nama": "Kaki belakang kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2D7": {
+   "nama": "Kaki depan kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2DA": {
+   "nama": "Kaki belakang kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2DD": {
+   "nama": "Rel atas depan",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2DE": {
+   "nama": "Rel atas belakang",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2DF": {
+   "nama": "Badan kabinet (carcass + top)",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2E0": {
+   "nama": "Panel belakang",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2F6": {
+   "nama": "Front laci 1",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "2F2": {
+   "nama": "Front laci 2",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "2EE": {
+   "nama": "Front laci 3",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "2EA": {
+   "nama": "Front laci 4",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "2E6": {
+   "nama": "Front laci 5",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "2F3": {
+   "nama": "Handle laci 1",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "2EF": {
+   "nama": "Handle laci 2",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "2EB": {
+   "nama": "Handle laci 3",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "2E7": {
+   "nama": "Handle laci 4",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "2E3": {
+   "nama": "Handle laci 5",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  }
+ },
+ "badan_handle": "2DF",
+ "laci": {
+  "1": {
+   "part": [
+    "2F6",
+    "2F3"
+   ],
+   "travel_m": 0.3,
+   "kotak": true
+  },
+  "2": {
+   "part": [
+    "2F2",
+    "2EF"
+   ],
+   "travel_m": 0.3,
+   "kotak": true
+  },
+  "3": {
+   "part": [
+    "2EE",
+    "2EB"
+   ],
+   "travel_m": 0.3,
+   "kotak": true
+  },
+  "4": {
+   "part": [
+    "2EA",
+    "2E7"
+   ],
+   "travel_m": 0.3,
+   "kotak": true
+  },
+  "5": {
+   "part": [
+    "2E6",
+    "2E3"
+   ],
+   "travel_m": 0.3,
+   "kotak": true
+  }
+ },
+ "fit_kolom": [
+  {
+   "front": [
+    "2F6",
+    "2F2",
+    "2EE",
+    "2EA",
+    "2E6"
+   ],
+   "z0_mm": -913.9,
+   "z1_mm": 56.1,
+   "celah_mm": 1.5,
+   "ikut": {
+    "2F6": [
+     "2F3"
+    ],
+    "2F2": [
+     "2EF"
+    ],
+    "2EE": [
+     "2EB"
+    ],
+    "2EA": [
+     "2E7"
+    ],
+    "2E6": [
+     "2E3"
+    ]
+   }
+  }
+ ],
+ "catatan": "Di DWG 5 front (5 x 194,7 = 973,5 mm) lebih tinggi 3,5 mm dari bukaan (970 mm) sehingga front teratas menembus rel atas 2,9 mm; front disusun ulang rata dalam bukaan dengan celah 1,5 mm (tinggi tiap front 191 mm)."
+}

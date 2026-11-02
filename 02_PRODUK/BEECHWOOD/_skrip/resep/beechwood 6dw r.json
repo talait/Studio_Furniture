@@ -1,0 +1,356 @@
+{
+ "nama": "Beechwood 6 Drawers",
+ "kategori": "DRESSER",
+ "dwg": "beechwood 6dw r.dwg",
+ "skala": 0.001,
+ "mode": "solid",
+ "sumber_obj": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\obj\\beechwood 6dw r.obj",
+ "file_out": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\beechwood 6dw r.blend",
+ "thumb": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\thumb\\beechwood 6dw r.png",
+ "laporan_json": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\laporan\\beechwood 6dw r.json",
+ "geometry_source": "DWG 2018 3DSOLID (ACIS SAB) -> tessellasi dwg2obj (LibreDWG + ezdxf)",
+ "unit_assumption": "angka DWG dibaca sebagai mm (INSUNITS=1 inci di header, tetapi ukuran hanya masuk akal sebagai mm)",
+ "weld_m": 1e-05,
+ "part": {
+  "261": {
+   "nama": "Badan kabinet (carcass + top)",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "257": {
+   "nama": "Rangka belakang (kaki belakang + rel)",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2E5": {
+   "nama": "Kaki depan kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2E1": {
+   "nama": "Kaki depan kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2E6": {
+   "nama": "Rel atas depan",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2FB": {
+   "nama": "Front laci 1",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "2F7": {
+   "nama": "Front laci 2",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "303": {
+   "nama": "Front laci 3",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "2FF": {
+   "nama": "Front laci 4",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "30C": {
+   "nama": "Front laci 5",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "308": {
+   "nama": "Front laci 6",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "2F8": {
+   "nama": "Handle laci 1",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "2E7": {
+   "nama": "Handle laci 2",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "300": {
+   "nama": "Handle laci 3",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "2FC": {
+   "nama": "Handle laci 4",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "309": {
+   "nama": "Handle laci 5",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "305": {
+   "nama": "Handle laci 6",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  },
+  "25A": {
+   "nama": "Lama: rel atas depan",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "2CE": {
+   "nama": "Lama: kaki depan kiri",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "262": {
+   "nama": "Lama: front laci kanan atas",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "270": {
+   "nama": "Lama: front laci kiri tengah",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "275": {
+   "nama": "Lama: front laci kanan tengah",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "27A": {
+   "nama": "Lama: front laci kiri bawah",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "27F": {
+   "nama": "Lama: front laci kanan bawah",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "25D": {
+   "nama": "Lama: handle",
+   "peran": "HANDLE",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "26C": {
+   "nama": "Lama: handle",
+   "peran": "HANDLE",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "271": {
+   "nama": "Lama: handle",
+   "peran": "HANDLE",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "276": {
+   "nama": "Lama: handle",
+   "peran": "HANDLE",
+   "grup": "Badan",
+   "arsip": true
+  },
+  "27B": {
+   "nama": "Lama: handle",
+   "peran": "HANDLE",
+   "grup": "Badan",
+   "arsip": true
+  }
+ },
+ "geser_mm": {
+  "2E5": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "2E1": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "2E6": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "2FB": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "2F7": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "303": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "2FF": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "30C": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "308": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "2F8": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "2E7": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "300": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "2FC": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "309": [
+   -1389.0,
+   -580.0,
+   0.0
+  ],
+  "305": [
+   -1389.0,
+   -580.0,
+   0.0
+  ]
+ },
+ "skala_x": {
+  "261": {
+   "faktor": 1.0140273787392258,
+   "x0_mm": 1344.3
+  },
+  "257": {
+   "faktor": 1.0140273787392258,
+   "x0_mm": 1344.3
+  }
+ },
+ "badan_handle": "261",
+ "laci": {
+  "1": {
+   "part": [
+    "2FB",
+    "2F8"
+   ],
+   "travel_m": 0.4,
+   "kotak": true
+  },
+  "2": {
+   "part": [
+    "2F7",
+    "2E7"
+   ],
+   "travel_m": 0.4,
+   "kotak": true
+  },
+  "3": {
+   "part": [
+    "303",
+    "300"
+   ],
+   "travel_m": 0.4,
+   "kotak": true
+  },
+  "4": {
+   "part": [
+    "2FF",
+    "2FC"
+   ],
+   "travel_m": 0.4,
+   "kotak": true
+  },
+  "5": {
+   "part": [
+    "30C",
+    "309"
+   ],
+   "travel_m": 0.4,
+   "kotak": true
+  },
+  "6": {
+   "part": [
+    "308",
+    "305"
+   ],
+   "travel_m": 0.4,
+   "kotak": true
+  }
+ },
+ "fit_kolom": [
+  {
+   "front": [
+    "2FB",
+    "303",
+    "30C"
+   ],
+   "z0_mm": -1879.7,
+   "z1_mm": -1308.6,
+   "celah_mm": 1.5,
+   "ikut": {
+    "2FB": [
+     "2F8"
+    ],
+    "303": [
+     "300"
+    ],
+    "30C": [
+     "309"
+    ]
+   }
+  },
+  {
+   "front": [
+    "2F7",
+    "2FF",
+    "308"
+   ],
+   "z0_mm": -1879.7,
+   "z1_mm": -1308.6,
+   "celah_mm": 1.5,
+   "ikut": {
+    "2F7": [
+     "2E7"
+    ],
+    "2FF": [
+     "2FC"
+    ],
+    "308": [
+     "305"
+    ]
+   }
+  }
+ ],
+ "catatan": "DWG berisi dua rakitan: A (kiri, carcass 1183 mm + 5 front lama 550 mm) dan B (kanan, rangka depan 1200 mm + 6 front 559 mm = revisi). Rakitan final = rangka depan & 6 front/handle dari B (digeser -1389,-580 mm) + carcass & rangka belakang dari A yang dilebarkan ke 1200 mm (skala X 1,014). Sisa A disimpan di collection _ARSIP."
+}

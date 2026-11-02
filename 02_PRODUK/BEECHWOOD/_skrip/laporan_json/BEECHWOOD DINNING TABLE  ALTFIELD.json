@@ -1,0 +1,531 @@
+{
+ "nama": "Beechwood Dining Table Altfield",
+ "catatan": [],
+ "part": [
+  {
+   "nama": "Kaki kiri belakang | 274",
+   "handle": "274",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "min_mm": [
+    -25.0,
+    -50.0,
+    -360.0
+   ],
+   "sebelum_vf": [
+    1309,
+    2348
+   ],
+   "tjunc_split": [
+    266,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 1253,
+    "faces": 2096
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki kiri depan | 278",
+   "handle": "278",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "min_mm": [
+    -25.0,
+    -50.0,
+    -360.0
+   ],
+   "sebelum_vf": [
+    1381,
+    2478
+   ],
+   "tjunc_split": [
+    280,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 1325,
+    "faces": 2213
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki ujung kiri | 27C",
+   "handle": "27C",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    100.0,
+    50.0,
+    720.0
+   ],
+   "min_mm": [
+    -50.0,
+    -25.0,
+    -360.0
+   ],
+   "sebelum_vf": [
+    1309,
+    2348
+   ],
+   "tjunc_split": [
+    266,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 1253,
+    "faces": 2098
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki kanan belakang | 28E",
+   "handle": "28E",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "min_mm": [
+    -25.0,
+    -50.0,
+    -360.0
+   ],
+   "sebelum_vf": [
+    1309,
+    2348
+   ],
+   "tjunc_split": [
+    266,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 1253,
+    "faces": 2098
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki kanan depan | 291",
+   "handle": "291",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "min_mm": [
+    -25.0,
+    -50.0,
+    -360.0
+   ],
+   "sebelum_vf": [
+    1381,
+    2478
+   ],
+   "tjunc_split": [
+    280,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 1325,
+    "faces": 2213
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Top meja | 29F",
+   "handle": "29F",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    2100.0,
+    800.0,
+    30.0
+   ],
+   "min_mm": [
+    -1050.0,
+    -400.0,
+    -15.0
+   ],
+   "sebelum_vf": [
+    572,
+    940
+   ],
+   "tjunc_split": [
+    90,
+    0,
+    9,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 23,
+    "boundary": 16,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 419,
+    "faces": 665
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki ujung kanan | 2A7",
+   "handle": "2A7",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    100.0,
+    50.0,
+    720.0
+   ],
+   "min_mm": [
+    -50.0,
+    -25.0,
+    -360.0
+   ],
+   "sebelum_vf": [
+    1309,
+    2348
+   ],
+   "tjunc_split": [
+    266,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 1253,
+    "faces": 2096
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Palang bawah kiri | 2B4",
+   "handle": "2B4",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "min_mm": [
+    -25.0,
+    -200.0,
+    -25.0
+   ],
+   "sebelum_vf": [
+    16,
+    28
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 16,
+    "faces": 10
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Palang atas kiri | 2B7",
+   "handle": "2B7",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "min_mm": [
+    -25.0,
+    -200.0,
+    -25.0
+   ],
+   "sebelum_vf": [
+    16,
+    28
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 16,
+    "faces": 10
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Palang bawah kanan | 2B9",
+   "handle": "2B9",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "min_mm": [
+    -25.0,
+    -200.0,
+    -25.0
+   ],
+   "sebelum_vf": [
+    16,
+    28
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 16,
+    "faces": 10
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Rel bawah memanjang | 2BA",
+   "handle": "2BA",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    1700.0,
+    50.0,
+    50.0
+   ],
+   "min_mm": [
+    -850.0,
+    -25.0,
+    -25.0
+   ],
+   "sebelum_vf": [
+    24,
+    44
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 24,
+    "faces": 14
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Palang atas kanan | 2BB",
+   "handle": "2BB",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "min_mm": [
+    -25.0,
+    -200.0,
+    -25.0
+   ],
+   "sebelum_vf": [
+    16,
+    28
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 16,
+    "faces": 10
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Rel atas memanjang | 2BC",
+   "handle": "2BC",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    1700.0,
+    50.0,
+    50.0
+   ],
+   "min_mm": [
+    -850.0,
+    -25.0,
+    -25.0
+   ],
+   "sebelum_vf": [
+    24,
+    44
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 24,
+    "faces": 14
+   },
+   "arsip": false,
+   "tambahan": false
+  }
+ ],
+ "masalah": [
+  {
+   "jenis": "mesh",
+   "nama": "Top meja | 29F",
+   "nonmanifold": 23,
+   "boundary": 16,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 419,
+   "faces": 665
+  }
+ ],
+ "bbox_sentuh": [
+  {
+   "a": "Palang bawah kiri | 2B4",
+   "b": "Rel bawah memanjang | 2BA",
+   "mm": [
+    50.0,
+    50.0,
+    50.0
+   ]
+  },
+  {
+   "a": "Palang atas kiri | 2B7",
+   "b": "Rel atas memanjang | 2BC",
+   "mm": [
+    50.0,
+    50.0,
+    50.0
+   ]
+  },
+  {
+   "a": "Palang bawah kanan | 2B9",
+   "b": "Rel bawah memanjang | 2BA",
+   "mm": [
+    50.0,
+    50.0,
+    50.0
+   ]
+  },
+  {
+   "a": "Palang atas kanan | 2BB",
+   "b": "Rel atas memanjang | 2BC",
+   "mm": [
+    50.0,
+    50.0,
+    50.0
+   ]
+  }
+ ],
+ "ukuran_cm": [
+  210.0,
+  80.0,
+  75.0
+ ],
+ "jumlah_objek_mesh": 13,
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD DINNING TABLE  ALTFIELD.blend"
+}

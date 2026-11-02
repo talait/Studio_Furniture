@@ -1,0 +1,666 @@
+{
+ "nama": "Beechwood Bedside",
+ "catatan": [
+  "Front laci 1 | 2D6: tinggi 120.0 -> 117.0 mm, pusat geser +0.0 mm (fit kolom -663.9..-543.9 mm, celah 1.5 mm)",
+  "Laci 1: kotak laci sederhana ditambahkan (lebar 446, dalam 398, tinggi 87 mm)"
+ ],
+ "part": [
+  {
+   "nama": "Kaki depan kanan | 2C2",
+   "handle": "2C2",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    40.0,
+    40.0,
+    500.0
+   ],
+   "min_mm": [
+    -20.0,
+    -20.0,
+    -250.0
+   ],
+   "sebelum_vf": [
+    2997,
+    5353
+   ],
+   "tjunc_split": [
+    317,
+    0,
+    4,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 49,
+    "boundary": 12,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 2385,
+    "faces": 4345
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki belakang kanan | 2C5",
+   "handle": "2C5",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    40.0,
+    40.0,
+    500.0
+   ],
+   "min_mm": [
+    -20.0,
+    -20.0,
+    -250.0
+   ],
+   "sebelum_vf": [
+    2997,
+    5353
+   ],
+   "tjunc_split": [
+    335,
+    0,
+    4,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 46,
+    "boundary": 11,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 2373,
+    "faces": 4307
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki depan kiri | 2C8",
+   "handle": "2C8",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    40.0,
+    40.0,
+    500.0
+   ],
+   "min_mm": [
+    -20.0,
+    -20.0,
+    -250.0
+   ],
+   "sebelum_vf": [
+    2996,
+    5353
+   ],
+   "tjunc_split": [
+    308,
+    0,
+    12,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 65,
+    "boundary": 30,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 2380,
+    "faces": 4308
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki belakang kiri | 2CB",
+   "handle": "2CB",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    40.0,
+    40.0,
+    500.0
+   ],
+   "min_mm": [
+    -20.0,
+    -20.0,
+    -250.0
+   ],
+   "sebelum_vf": [
+    2997,
+    5353
+   ],
+   "tjunc_split": [
+    317,
+    0,
+    11,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 55,
+    "boundary": 8,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 2384,
+    "faces": 4324
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Rel atas belakang | 2CE",
+   "handle": "2CE",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    470.0,
+    40.0,
+    40.0
+   ],
+   "min_mm": [
+    -235.0,
+    -20.0,
+    -20.0
+   ],
+   "sebelum_vf": [
+    735,
+    1312
+   ],
+   "tjunc_split": [
+    154,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 682,
+    "faces": 1121
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Badan kabinet (carcass + top) | 2CF",
+   "handle": "2CF",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    550.0,
+    420.0,
+    410.0
+   ],
+   "min_mm": [
+    -275.0,
+    -210.0,
+    -205.0
+   ],
+   "sebelum_vf": [
+    2708,
+    4838
+   ],
+   "tjunc_split": [
+    534,
+    0,
+    40,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 2491,
+    "faces": 3985
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Panel belakang | 2D0",
+   "handle": "2D0",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    470.0,
+    9.0,
+    370.0
+   ],
+   "min_mm": [
+    -235.0,
+    -4.5,
+    -185.0
+   ],
+   "sebelum_vf": [
+    8,
+    12
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 8,
+    "faces": 6
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Handle laci 1 | 2D3",
+   "handle": "2D3",
+   "peran": "HANDLE",
+   "grup": "Hardware",
+   "ukuran_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "min_mm": [
+    -81.8,
+    -10.5,
+    -4.0
+   ],
+   "sebelum_vf": [
+    7079,
+    14500
+   ],
+   "tjunc_split": [
+    340,
+    0,
+    335,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 75,
+    "boundary": 12,
+    "zero_area": 1,
+    "islands": 1,
+    "verts": 6303,
+    "faces": 10696
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Front laci 1 | 2D6",
+   "handle": "2D6",
+   "peran": "WOOD_A",
+   "grup": "Laci",
+   "ukuran_mm": [
+    470.0,
+    30.0,
+    117.0
+   ],
+   "min_mm": [
+    -235.0,
+    -15.0,
+    -58.5
+   ],
+   "sebelum_vf": [
+    6740,
+    13176
+   ],
+   "tjunc_split": [
+    328,
+    0,
+    62,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 830,
+    "boundary": 649,
+    "zero_area": 5,
+    "islands": 5,
+    "verts": 4113,
+    "faces": 6718
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Rel atas depan | 2D7",
+   "handle": "2D7",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    470.0,
+    40.0,
+    40.0
+   ],
+   "min_mm": [
+    -235.0,
+    -20.0,
+    -20.0
+   ],
+   "sebelum_vf": [
+    735,
+    1312
+   ],
+   "tjunc_split": [
+    154,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 679,
+    "faces": 1119
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Rak dasar | 2D8",
+   "handle": "2D8",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    550.0,
+    500.0,
+    18.0
+   ],
+   "min_mm": [
+    -275.0,
+    -250.0,
+    -9.0
+   ],
+   "sebelum_vf": [
+    2628,
+    4692
+   ],
+   "tjunc_split": [
+    560,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 2404,
+    "faces": 4166
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Laci 1 / dasar 7 mm",
+   "handle": "-",
+   "peran": "WOOD_B",
+   "grup": "Laci",
+   "ukuran_mm": [
+    446.0,
+    398.2,
+    7.0
+   ],
+   "min_mm": [
+    -223.0,
+    -217.6,
+    353.5
+   ],
+   "sebelum_vf": null,
+   "tjunc_split": null,
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 8,
+    "faces": 6
+   },
+   "arsip": false,
+   "tambahan": true
+  },
+  {
+   "nama": "Laci 1 / sisi kiri 12 mm",
+   "handle": "-",
+   "peran": "WOOD_B",
+   "grup": "Laci",
+   "ukuran_mm": [
+    12.0,
+    398.2,
+    87.0
+   ],
+   "min_mm": [
+    -223.0,
+    -217.6,
+    353.5
+   ],
+   "sebelum_vf": null,
+   "tjunc_split": null,
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 8,
+    "faces": 6
+   },
+   "arsip": false,
+   "tambahan": true
+  },
+  {
+   "nama": "Laci 1 / sisi kanan 12 mm",
+   "handle": "-",
+   "peran": "WOOD_B",
+   "grup": "Laci",
+   "ukuran_mm": [
+    12.0,
+    398.2,
+    87.0
+   ],
+   "min_mm": [
+    211.0,
+    -217.6,
+    353.5
+   ],
+   "sebelum_vf": null,
+   "tjunc_split": null,
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 8,
+    "faces": 6
+   },
+   "arsip": false,
+   "tambahan": true
+  },
+  {
+   "nama": "Laci 1 / belakang 12 mm",
+   "handle": "-",
+   "peran": "WOOD_B",
+   "grup": "Laci",
+   "ukuran_mm": [
+    446.0,
+    12.0,
+    87.0
+   ],
+   "min_mm": [
+    -223.0,
+    168.6,
+    353.5
+   ],
+   "sebelum_vf": null,
+   "tjunc_split": null,
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 8,
+    "faces": 6
+   },
+   "arsip": false,
+   "tambahan": true
+  }
+ ],
+ "masalah": [
+  {
+   "jenis": "tembus",
+   "a": "Kaki depan kanan | 2C2",
+   "b": "Rak dasar | 2D8",
+   "bbox_mm": [
+    40.0,
+    40.0,
+    18.0
+   ],
+   "vertex_a_di_dalam_b": 235,
+   "vertex_b_di_dalam_a": 24
+  },
+  {
+   "jenis": "tembus",
+   "a": "Kaki belakang kanan | 2C5",
+   "b": "Rak dasar | 2D8",
+   "bbox_mm": [
+    40.0,
+    40.0,
+    18.0
+   ],
+   "vertex_a_di_dalam_b": 290,
+   "vertex_b_di_dalam_a": 24
+  },
+  {
+   "jenis": "tembus",
+   "a": "Kaki depan kiri | 2C8",
+   "b": "Rak dasar | 2D8",
+   "bbox_mm": [
+    40.0,
+    40.0,
+    18.0
+   ],
+   "vertex_a_di_dalam_b": 108,
+   "vertex_b_di_dalam_a": 24
+  },
+  {
+   "jenis": "tembus",
+   "a": "Kaki belakang kiri | 2CB",
+   "b": "Rak dasar | 2D8",
+   "bbox_mm": [
+    40.0,
+    40.0,
+    18.0
+   ],
+   "vertex_a_di_dalam_b": 218,
+   "vertex_b_di_dalam_a": 24
+  },
+  {
+   "jenis": "tembus",
+   "a": "Handle laci 1 | 2D3",
+   "b": "Front laci 1 | 2D6",
+   "bbox_mm": [
+    163.6,
+    16.0,
+    8.0
+   ],
+   "vertex_a_di_dalam_b": 587,
+   "vertex_b_di_dalam_a": 29
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Kaki depan kanan | 2C2",
+   "nonmanifold": 49,
+   "boundary": 12,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 2385,
+   "faces": 4345
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Kaki belakang kanan | 2C5",
+   "nonmanifold": 46,
+   "boundary": 11,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 2373,
+   "faces": 4307
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Kaki depan kiri | 2C8",
+   "nonmanifold": 65,
+   "boundary": 30,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 2380,
+   "faces": 4308
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Kaki belakang kiri | 2CB",
+   "nonmanifold": 55,
+   "boundary": 8,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 2384,
+   "faces": 4324
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Handle laci 1 | 2D3",
+   "nonmanifold": 75,
+   "boundary": 12,
+   "zero_area": 1,
+   "islands": 1,
+   "verts": 6303,
+   "faces": 10696
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Front laci 1 | 2D6",
+   "nonmanifold": 830,
+   "boundary": 649,
+   "zero_area": 5,
+   "islands": 5,
+   "verts": 4113,
+   "faces": 6718
+  }
+ ],
+ "bbox_sentuh": [
+  {
+   "a": "Badan kabinet (carcass + top) | 2CF",
+   "b": "Rak dasar | 2D8",
+   "mm": [
+    550.0,
+    420.0,
+    18.0
+   ]
+  },
+  {
+   "a": "Panel belakang | 2D0",
+   "b": "Rak dasar | 2D8",
+   "mm": [
+    470.0,
+    9.0,
+    18.0
+   ]
+  }
+ ],
+ "ukuran_cm": [
+  55.0,
+  50.52,
+  50.0
+ ],
+ "jumlah_objek_mesh": 15,
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD BEDSIDE.blend"
+}

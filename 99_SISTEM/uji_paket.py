@@ -39,7 +39,7 @@ hashes = {str(p): sha(p) for p in [template, product, library]}
 s = bpy.context.scene
 check('Studio starts empty', s.ns_studio.product is None and not ns.product_objects(s))
 check('Every angle has one camera preset', sorted(o['ns_shot'] for o in s.objects if o.get('ns_shot')) == sorted(ns.SHOT_IDS))
-check('Camera names have no spaces (CAM_01_HERO ...)', all(o.name == f"CAM_{ns.SHOT_IDS.index(o['ns_shot']) + 1:02d}_{o['ns_shot']}" for o in s.objects if o.get('ns_shot')))
+check('Camera names have no spaces (CAM_01_HERO ...)', all(o.name == f"CAM_{ns.SHOT_NUMBER[o['ns_shot']]:02d}_{o['ns_shot']}" for o in s.objects if o.get('ns_shot')))
 check('Light rig complete (at least twenty lights)', sum(o.type == 'LIGHT' for o in s.objects) >= 20)
 check('No product texture embedded in empty studio', not any('white_oak' in i.name for i in bpy.data.images))
 rigs = [c for c in bpy.data.collections if c.get('ns_light_shot')]
@@ -118,9 +118,7 @@ size0, _ = dims()
 s.ns_studio.shot = 'SIDE_L'
 size, lo = dims()
 check('Side-left angle turns product 90° on the floor', abs(size.x - size0.y) < 1e-4 and abs(size.y - size0.x) < 1e-4 and abs(lo.z) < 1e-4)
-s.ns_studio.shot = 'BACK'
-size, lo = dims()
-check('Back angle keeps product centred on the floor', abs(lo.z) < 1e-4 and abs(lo.x + size.x / 2) < 1e-4 and abs(lo.y + size.y / 2) < 1e-4)
+check('Removed angles (side right, back, studio overview) have no camera', all(ns.camera_for(s, shot) is None for shot in ns.REMOVED_SHOTS) and ns.overview_camera() is None)
 s.ns_studio.shot = 'HERO'
 size, _ = dims()
 check('Returning to Hero restores product orientation', all(abs(a - b) < 1e-4 for a, b in zip(size, size0)))
@@ -137,7 +135,6 @@ check('Import skips objects in a source "Studio" collection', ns.scene_clutter(b
 for tmp in (plane, box):
     bpy.data.objects.remove(tmp)
 bpy.data.collections.remove(studio_coll)
-check('Overview camera named without spaces', ns.overview_camera() is not None and ns.overview_camera().name == 'CAM_STUDIO_OVERVIEW')
 
 # --- Render di luar addon (render server): cukup ganti scene.camera ----------------------
 s.camera = ns.camera_for(s, 'SIDE_L'); s.frame_set(s.frame_current)

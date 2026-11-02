@@ -1,0 +1,75 @@
+{
+ "nama": "Beechwood Dining Chair",
+ "kategori": "KURSI_MAKAN",
+ "dwg": "BEECHWOOD DINNING CHAIR.dwg",
+ "skala": 0.001,
+ "mode": "solid",
+ "sumber_obj": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\obj\\BEECHWOOD DINNING CHAIR.obj",
+ "file_out": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD DINNING CHAIR.blend",
+ "thumb": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\thumb\\BEECHWOOD DINNING CHAIR.png",
+ "laporan_json": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\laporan\\BEECHWOOD DINNING CHAIR.json",
+ "geometry_source": "DWG 2018 3DSOLID (ACIS SAB) -> tessellasi dwg2obj (LibreDWG + ezdxf)",
+ "unit_assumption": "angka DWG dibaca sebagai mm (INSUNITS=4 mm)",
+ "weld_m": 1e-05,
+ "part": {
+  "2BA": {
+   "nama": "Rangka samping kiri (kaki + sandaran)",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2C9": {
+   "nama": "Rangka samping kanan (kaki + sandaran)",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2BD": {
+   "nama": "Palang samping kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2C0": {
+   "nama": "Palang samping kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2C3": {
+   "nama": "Palang depan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2C6": {
+   "nama": "Palang belakang",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2E4": {
+   "nama": "Dudukan baji depan",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2E7": {
+   "nama": "Dudukan baji belakang",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2E1": {
+   "nama": "Dudukan baji kiri+kanan",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  }
+ },
+ "pisah_loose": [
+  {
+   "handle": "2E1",
+   "sumbu": "X",
+   "nama": [
+    "Dudukan baji kiri",
+    "Dudukan baji kanan"
+   ]
+  }
+ ],
+ "buang": [
+  "2CC"
+ ],
+ "catatan": "Solid 2CC kosong (tanpa data ACIS, 69 byte) dibuang. Dudukan terdiri dari 4 baji segitiga (pola diagonal): 2E4 depan, 2E7 belakang, 2E1 = kiri+kanan dalam satu solid (dipisah jadi dua objek). Baji dudukan menempati ketinggian yang sama dengan palang samping/depan/belakang (palang berada di dalam dudukan) dan ujung palang masuk ke rangka samping (tenon) - sesuai DWG, tidak diubah."
+}

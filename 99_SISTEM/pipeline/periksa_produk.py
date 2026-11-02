@@ -213,7 +213,7 @@ def main():
     s.render.resolution_x = s.render.resolution_y = 700
     s.render.resolution_percentage = 100
     s.cycles.samples = 48; s.cycles.adaptive_threshold = 0.05
-    for shot in (('HERO', 'FRONT') if cepat else ('HERO', 'FRONT', 'SIDE')):
+    for shot in (('HERO', 'FRONT') if cepat else ('HERO', 'FRONT', 'SIDE_L')):   # angle samping kanan sudah dihapus
         ns.select_shot(s, shot); s.ns_studio.shot = shot
         s.render.filepath = str(qc / (shot.lower() + '.png'))
         bpy.ops.render.render(write_still=True)
@@ -270,7 +270,7 @@ def main():
                         'lines': [((lo.x, lo.y - 0.02, -0.04), (hi.x, lo.y - 0.02, -0.04)), ((hi.x + 0.04, lo.y - 0.02, 0), (hi.x + 0.04, lo.y - 0.02, hi.z))],
                         'labels': [(f'L {size.x * 100:.1f} cm', (center.x, lo.y - 0.02, -0.04 - text_h), (math.pi / 2, 0, 0)),
                                    (f'T {size.z * 100:.1f} cm', (hi.x + 0.04 + text_h, lo.y - 0.02, center.z), (math.pi / 2, 0, math.pi / 2))]},
-        'side_ortho': {'cam_dir': Vector((1, 0, 0)), 'rot': (math.pi / 2, 0, math.pi / 2), 'shot': 'SIDE', 'extent': max(size.y, size.z),
+        'side_ortho': {'cam_dir': Vector((1, 0, 0)), 'rot': (math.pi / 2, 0, math.pi / 2), 'shot': 'FRONT', 'extent': max(size.y, size.z),
                        'lines': [((hi.x + 0.02, lo.y, -0.04), (hi.x + 0.02, hi.y, -0.04)), ((hi.x + 0.02, hi.y + 0.04, 0), (hi.x + 0.02, hi.y + 0.04, hi.z))],
                        'labels': [(f'D {size.y * 100:.1f} cm', (hi.x + 0.02, center.y, -0.04 - text_h), (math.pi / 2, 0, math.pi / 2)),
                                   (f'T {size.z * 100:.1f} cm', (hi.x + 0.02, hi.y + 0.04 + text_h, center.z), (math.pi / 2, 0, math.pi))]},

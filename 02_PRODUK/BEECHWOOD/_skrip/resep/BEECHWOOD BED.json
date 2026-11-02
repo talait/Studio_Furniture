@@ -1,0 +1,95 @@
+{
+ "nama": "Beechwood Bed",
+ "kategori": "RANJANG",
+ "dwg": "BEECHWOOD BED.dwg",
+ "skala": 0.001,
+ "mode": "solid",
+ "sumber_obj": "C:\\Users\\Staff\\Downloads\\BEACHWOOD\\BEECHWOOD BED.obj",
+ "file_out": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD BED.blend",
+ "thumb": "C:/Users/Staff/AppData/Local/Temp/claude/C--Users-Staff-Downloads-BEACHWOOD/7bd93693-0736-47ee-a76b-793daf1879f0/scratchpad/thumb/BEECHWOOD BED.png",
+ "laporan_json": "C:/Users/Staff/AppData/Local/Temp/claude/C--Users-Staff-Downloads-BEACHWOOD/7bd93693-0736-47ee-a76b-793daf1879f0/scratchpad/laporan/BEECHWOOD BED.json",
+ "geometry_source": "DWG 2018 3DSOLID (ACIS SAB) -> tessellasi dwg2obj (LibreDWG + ezdxf)",
+ "unit_assumption": "angka DWG dibaca sebagai mm",
+ "weld_m": 1e-05,
+ "part": {
+  "44E": {
+   "nama": "Rangka headboard",
+   "peran": "WOOD_A",
+   "grup": "Headboard",
+   "serat": "X"
+  },
+  "342": {
+   "nama": "Panel belakang headboard",
+   "peran": "WOOD_A",
+   "grup": "Headboard",
+   "serat": "X"
+  },
+  "2D7": {
+   "nama": "Jok headboard 1",
+   "peran": "KAIN",
+   "grup": "Headboard"
+  },
+  "2D3": {
+   "nama": "Jok headboard 2",
+   "peran": "KAIN",
+   "grup": "Headboard"
+  },
+  "2D1": {
+   "nama": "Jok headboard 3a",
+   "peran": "KAIN",
+   "grup": "Headboard"
+  },
+  "2D8": {
+   "nama": "Jok headboard 3b",
+   "peran": "KAIN",
+   "grup": "Headboard"
+  },
+  "2D2": {
+   "nama": "Jok headboard 4",
+   "peran": "KAIN",
+   "grup": "Headboard"
+  },
+  "2D0": {
+   "nama": "Jok headboard 5",
+   "peran": "KAIN",
+   "grup": "Headboard"
+  },
+  "2C0": {
+   "nama": "Rel kepala",
+   "peran": "WOOD_A",
+   "grup": "Rangka",
+   "serat": "X"
+  },
+  "2CB": {
+   "nama": "Rel kaki",
+   "peran": "WOOD_A",
+   "grup": "Rangka",
+   "serat": "X"
+  },
+  "2C1": {
+   "nama": "Rel samping kiri",
+   "peran": "WOOD_A",
+   "grup": "Rangka",
+   "serat": "Y"
+  },
+  "2C5": {
+   "nama": "Rel samping kanan",
+   "peran": "WOOD_A",
+   "grup": "Rangka",
+   "serat": "Y"
+  },
+  "2C9": {
+   "nama": "Kaki depan kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "serat": "Z"
+  },
+  "2CA": {
+   "nama": "Kaki depan kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "serat": "Z"
+  }
+ },
+ "catatan": "Ranjang queen (dalam rel 1630 x ~1990 mm). Jok headboard = kain krem (peran KAIN) sesuai foto referensi Beechwood. DWG tidak berisi kasur/sprei/bantal. Kaki belakang menyatu di rangka headboard."
+}

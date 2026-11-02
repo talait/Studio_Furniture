@@ -1,0 +1,1650 @@
+{
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\beechwood 6dw r.blend",
+ "scene": "PRODUK | Beechwood 6 Drawers",
+ "unit": [
+  "METRIC",
+  "CENTIMETERS",
+  1.0
+ ],
+ "objek": [
+  {
+   "nama": "Badan kabinet (carcass + top) | 261",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    1200.0,
+    520.0,
+    611.1
+   ],
+   "verts": 2556,
+   "faces": 4113,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "261",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "DRAWER_1 | Beechwood 6 Drawers",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "ns_drawer": 1,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 1 | 2FB",
+    "Handle laci 1 | 2F8",
+    "Laci 1 / belakang 12 mm",
+    "Laci 1 / dasar 7 mm",
+    "Laci 1 / sisi kanan 12 mm",
+    "Laci 1 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "DRAWER_2 | Beechwood 6 Drawers",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "ns_drawer": 2,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 2 | 2F7",
+    "Handle laci 2 | 2E7",
+    "Laci 2 / belakang 12 mm",
+    "Laci 2 / dasar 7 mm",
+    "Laci 2 / sisi kanan 12 mm",
+    "Laci 2 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "DRAWER_3 | Beechwood 6 Drawers",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "ns_drawer": 3,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 3 | 303",
+    "Handle laci 3 | 300",
+    "Laci 3 / belakang 12 mm",
+    "Laci 3 / dasar 7 mm",
+    "Laci 3 / sisi kanan 12 mm",
+    "Laci 3 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "DRAWER_4 | Beechwood 6 Drawers",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "ns_drawer": 4,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 4 | 2FF",
+    "Handle laci 4 | 2FC",
+    "Laci 4 / belakang 12 mm",
+    "Laci 4 / dasar 7 mm",
+    "Laci 4 / sisi kanan 12 mm",
+    "Laci 4 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "DRAWER_5 | Beechwood 6 Drawers",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "ns_drawer": 5,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 5 | 30C",
+    "Handle laci 5 | 309",
+    "Laci 5 / belakang 12 mm",
+    "Laci 5 / dasar 7 mm",
+    "Laci 5 / sisi kanan 12 mm",
+    "Laci 5 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "DRAWER_6 | Beechwood 6 Drawers",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "ns_drawer": 6,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 6 | 308",
+    "Handle laci 6 | 305",
+    "Laci 6 / belakang 12 mm",
+    "Laci 6 / dasar 7 mm",
+    "Laci 6 / sisi kanan 12 mm",
+    "Laci 6 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "Front laci 1 | 2FB",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "verts": 4325,
+   "faces": 6894,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2FB",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Front laci 2 | 2F7",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "verts": 4317,
+   "faces": 6948,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2F7",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Front laci 3 | 303",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "verts": 4367,
+   "faces": 7028,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "303",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Front laci 4 | 2FF",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "verts": 4334,
+   "faces": 7088,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2FF",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Front laci 5 | 30C",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "verts": 4340,
+   "faces": 6910,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "30C",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Front laci 6 | 308",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_6 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "verts": 4339,
+   "faces": 6979,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "308",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 1 | 2F8",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_1 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6320,
+   "faces": 10682,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "2F8",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 2 | 2E7",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_2 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 7122,
+   "faces": 12362,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "2E7",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 3 | 300",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_3 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6335,
+   "faces": 10830,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "300",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 4 | 2FC",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_4 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.1,
+    8.0
+   ],
+   "verts": 7097,
+   "faces": 12342,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "2FC",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 5 | 309",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_5 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6311,
+   "faces": 10675,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "309",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 6 | 305",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_6 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 7096,
+   "faces": 12363,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "305",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki depan kanan | 2E1",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    700.0
+   ],
+   "verts": 2350,
+   "faces": 4277,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2E1",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki depan kiri | 2E5",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    700.0
+   ],
+   "verts": 1999,
+   "faces": 3585,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2E5",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    12.0,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    498.3,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 2 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    12.0,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 2 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    498.3,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 2 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 2 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 3 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    12.0,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 3 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    498.3,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 3 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 3 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 4 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    12.0,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 4 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    498.3,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 4 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 4 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 5 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    12.0,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 5 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    498.3,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 5 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 5 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 6 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_6 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    12.0,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 6 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_6 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    535.4,
+    498.3,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 6 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_6 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 6 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_6 | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    12.0,
+    498.3,
+    157.4
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: front laci kanan atas | 262",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    550.0,
+    30.0,
+    190.0
+   ],
+   "verts": 5256,
+   "faces": 8631,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "262",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: front laci kanan bawah | 27F",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    550.0,
+    30.0,
+    190.0
+   ],
+   "verts": 1576,
+   "faces": 2359,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "27F",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: front laci kanan tengah | 275",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    550.0,
+    30.0,
+    190.0
+   ],
+   "verts": 4374,
+   "faces": 7029,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "275",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: front laci kiri bawah | 27A",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    550.0,
+    30.0,
+    190.0
+   ],
+   "verts": 1569,
+   "faces": 2340,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "27A",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: front laci kiri tengah | 270",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    550.0,
+    30.0,
+    190.0
+   ],
+   "verts": 1565,
+   "faces": 2325,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "270",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: handle | 25D",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 7111,
+   "faces": 12346,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "25D",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: handle | 26C",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6366,
+   "faces": 10930,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "26C",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: handle | 271",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 7090,
+   "faces": 12312,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "271",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: handle | 276",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6349,
+   "faces": 10898,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "276",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: handle | 27B",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 7091,
+   "faces": 12338,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "27B",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: kaki depan kiri | 2CE",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    700.0
+   ],
+   "verts": 2361,
+   "faces": 3930,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2CE",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Lama: rel atas depan | 25A",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    1143.6,
+    40.0,
+    40.0
+   ],
+   "verts": 2035,
+   "faces": 3205,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "25A",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "PROD | Beechwood 6 Drawers"
+   ],
+   "parent": null
+  },
+  {
+   "nama": "Rangka belakang (kaki belakang + rel) | 257",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    1200.0,
+    40.0,
+    700.0
+   ],
+   "verts": 8374,
+   "faces": 15060,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "257",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Rel atas depan | 2E6",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensi_mm": [
+    1120.0,
+    40.0,
+    40.0
+   ],
+   "verts": 607,
+   "faces": 934,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2E6",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  }
+ ],
+ "koleksi": [
+  {
+   "nama": "Scene Collection",
+   "level": 0,
+   "jumlah_objek": 0
+  },
+  {
+   "nama": "PROD | Beechwood 6 Drawers",
+   "level": 1,
+   "jumlah_objek": 1
+  },
+  {
+   "nama": "Laci",
+   "level": 2,
+   "jumlah_objek": 36
+  },
+  {
+   "nama": "Kaki",
+   "level": 2,
+   "jumlah_objek": 3
+  },
+  {
+   "nama": "_ARSIP sisa DWG (tidak dipakai)",
+   "level": 2,
+   "jumlah_objek": 12
+  },
+  {
+   "nama": "Badan",
+   "level": 2,
+   "jumlah_objek": 2
+  },
+  {
+   "nama": "Hardware",
+   "level": 2,
+   "jumlah_objek": 6
+  }
+ ],
+ "masalah": [],
+ "koleksi_dikecualikan": [
+  "_ARSIP sisa DWG (tidak dipakai)"
+ ],
+ "root": [
+  {
+   "nama": "PRODUCT_ROOT | Beechwood 6 Drawers",
+   "dimensions_cm": [
+    120.0,
+    60.53,
+    70.0
+   ],
+   "source": "beechwood 6dw r.dwg",
+   "catatan": "DWG berisi dua rakitan: A (kiri, carcass 1183 mm + 5 front lama 550 mm) dan B (kanan, rangka depan 1200 mm + 6 front 559 mm = revisi). Rakitan final = rangka depan & 6 front/handle dari B (digeser -1389,-580 mm) + carcass & rangka belakang dari A yang dilebarkan ke 1200 mm (skala X 1,014). Sisa A disimpan di collection _ARSIP."
+  }
+ ],
+ "bbox_aktif_mm": {
+  "min": [
+   -600.0,
+   -302.7,
+   0.0
+  ],
+  "max": [
+   600.0,
+   302.7,
+   700.0
+  ],
+  "ukuran": [
+   1200.0,
+   605.3,
+   700.0
+  ]
+ },
+ "jumlah_mesh": 53,
+ "material": [
+  {
+   "nama": "ROLE | HANDLE",
+   "ns_role": "HANDLE"
+  },
+  {
+   "nama": "ROLE | WOOD_A",
+   "ns_role": "WOOD_A"
+  },
+  {
+   "nama": "ROLE | WOOD_B",
+   "ns_role": "WOOD_B"
+  }
+ ],
+ "gambar_belum_pack": []
+}

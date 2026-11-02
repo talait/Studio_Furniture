@@ -1,3 +1,5 @@
+# USANG (31 Okt 2026): angle samping kanan, belakang, dan kamera overview sudah dihapus (hapus_kamera_lama.py).
+# Jangan dijalankan lagi: skrip ini membuat ulang kamera overview dan memakai kamera SIDE.
 """Tambah angle kamera 06-09 (samping kiri, belakang 3/4, detail kaki, close-up), jadikan
 angle Samping kanan profil seamless, beri nama kamera tanpa spasi (CAM_01_HERO ...,
 CAM_STUDIO_OVERVIEW), dan pasang driver agar putaran produk & lampu angle mengikuti

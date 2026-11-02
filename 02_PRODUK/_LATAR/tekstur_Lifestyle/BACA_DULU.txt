@@ -1,0 +1,30 @@
+TEKSTUR LATAR "LIFESTYLE" - Doheny (Tala Living)
+================================================
+
+ISI
+- Lifestyle_Microcement_BaseColor.png   warna lantai (sRGB), 4096 px
+- Lifestyle_Microcement_Roughness.png   roughness (Non-Color), 0.62-0.85
+- Lifestyle_Microcement_Normal_GL.png   normal map OpenGL (Non-Color)
+- Lifestyle_Microcement_Height.png      height 16-bit (Non-Color)
+- Lifestyle_Dinding_MatteOffWhite_E9E6E0.png  swatch dinding/plafon
+- Lifestyle_Materials_procedural.blend  dua material asli (procedural) untuk Blender
+- Lifestyle_spesifikasi.json            semua angka: warna, lampu, render
+- PREVIEW_Lifestyle_tekstur.jpg         pratinjau
+
+UKURAN TILE
+Satu gambar lantai = 2 x 2 meter, mulus di semua tepi (bisa diulang tanpa sambungan).
+Di Blender: Texture Coordinate (Object atau UV dalam meter) -> Mapping Scale 0.5 -> Image Texture.
+
+PAKAI DI BLENDER
+- Cara paling akurat: File > Append > Lifestyle_Materials_procedural.blend > Material >
+  "Lifestyle | Lantai Semen Microcement" dan "Lifestyle | Matte Off-White".
+  Lantai procedural memakai posisi dunia (meter), jadi tidak perlu UV.
+- Atau pakai PNG: BaseColor -> Base Color, Roughness -> Roughness,
+  Normal_GL -> Normal Map node -> Normal. Specular IOR Level 0.25.
+
+APLIKASI LAIN
+- Unreal / 3ds Max / DirectX: balik kanal hijau normal map (format OpenGL).
+- Dinding: warna polos #E9E6E0, roughness 0.88, specular 0.2 (tanpa tekstur).
+
+WARNA AKAN TAMPAK SAMA bila render memakai view transform "Khronos PBR Neutral", exposure -2.5,
+lampu Key Sun 22 + Sky Fill 6 (lihat Lifestyle_spesifikasi.json).

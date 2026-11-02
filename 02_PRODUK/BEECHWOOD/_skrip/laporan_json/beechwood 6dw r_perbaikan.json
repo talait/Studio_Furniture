@@ -1,0 +1,1432 @@
+{
+ "log": [
+  "Carcass 261 dipecah: top + sisi kiri + sisi kanan, mitre 45° lewat pusat lengkung (559.7, 660.0) mm",
+  "Rangka belakang: muka dalam kaki di x = -559.44 / 559.40 mm",
+  "Kaki belakang kanan dibuat dari cermin kaki belakang kiri (mesh asli kanan punya muka bertumpuk)",
+  "Ditambah: panel dasar 1159.3 x 511.0 x 18.0, panel belakang 1159.3 x 591.1 x 9.0, partisi tengah 511.0 x 573.1 x 18.0 mm",
+  "Laci 1: kotak 525.6 x 500 x 140 mm (x -547.3..-21.7, z 492.7..632.7), ruang rel 12.7 mm",
+  "Laci 2: kotak 525.6 x 500 x 140 mm (x 21.7..547.3, z 492.7..632.7), ruang rel 12.7 mm",
+  "Laci 3: kotak 525.6 x 500 x 140 mm (x -547.3..-21.7, z 302.4..442.4), ruang rel 12.7 mm",
+  "Laci 4: kotak 525.6 x 500 x 140 mm (x 21.7..547.3, z 302.4..442.4), ruang rel 12.7 mm",
+  "Laci 5: kotak 525.6 x 500 x 140 mm (x -547.3..-21.7, z 112.0..252.0), ruang rel 12.7 mm",
+  "Laci 6: kotak 525.6 x 500 x 140 mm (x 21.7..547.3, z 112.0..252.0), ruang rel 12.7 mm",
+  "Klos rel laci 6 buah (2 per baris) agar bidang rel rata dengan muka dalam kaki depan (x = ±560 mm)",
+  "Disimpan"
+ ],
+ "part": [
+  {
+   "nama": "Front laci 1 | 2FB",
+   "collection": "Laci 1",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "min_mm": [
+    -560.0,
+    -297.7,
+    471.1
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 869,
+   "zero_area": 0,
+   "faces": 6894
+  },
+  {
+   "nama": "Front laci 2 | 2F7",
+   "collection": "Laci 2",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "min_mm": [
+    0.6,
+    -297.7,
+    471.1
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 912,
+   "zero_area": 0,
+   "faces": 6948
+  },
+  {
+   "nama": "Front laci 3 | 303",
+   "collection": "Laci 3",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "min_mm": [
+    -560.0,
+    -297.7,
+    280.8
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 877,
+   "zero_area": 0,
+   "faces": 7028
+  },
+  {
+   "nama": "Front laci 4 | 2FF",
+   "collection": "Laci 4",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "min_mm": [
+    0.6,
+    -297.7,
+    280.8
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 742,
+   "zero_area": 0,
+   "faces": 7088
+  },
+  {
+   "nama": "Front laci 5 | 30C",
+   "collection": "Laci 5",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "min_mm": [
+    -560.0,
+    -297.7,
+    90.4
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 864,
+   "zero_area": 0,
+   "faces": 6910
+  },
+  {
+   "nama": "Front laci 6 | 308",
+   "collection": "Laci 6",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    559.4,
+    30.0,
+    187.4
+   ],
+   "min_mm": [
+    0.6,
+    -297.7,
+    90.4
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 917,
+   "zero_area": 0,
+   "faces": 6979
+  },
+  {
+   "nama": "Handle laci 1 | 2F8",
+   "collection": "Laci 1",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "min_mm": [
+    -371.1,
+    -302.7,
+    565.7
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 68,
+   "zero_area": 0,
+   "faces": 10682
+  },
+  {
+   "nama": "Handle laci 2 | 2E7",
+   "collection": "Laci 2",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "min_mm": [
+    207.5,
+    -302.7,
+    565.7
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 101,
+   "zero_area": 0,
+   "faces": 12362
+  },
+  {
+   "nama": "Handle laci 3 | 300",
+   "collection": "Laci 3",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "min_mm": [
+    -371.1,
+    -302.7,
+    365.6
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 72,
+   "zero_area": 0,
+   "faces": 10830
+  },
+  {
+   "nama": "Handle laci 4 | 2FC",
+   "collection": "Laci 4",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "min_mm": [
+    207.5,
+    -302.7,
+    365.6
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 103,
+   "zero_area": 0,
+   "faces": 12342
+  },
+  {
+   "nama": "Handle laci 5 | 309",
+   "collection": "Laci 5",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "min_mm": [
+    -371.1,
+    -302.7,
+    184.9
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 60,
+   "zero_area": 0,
+   "faces": 10675
+  },
+  {
+   "nama": "Handle laci 6 | 305",
+   "collection": "Laci 6",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "min_mm": [
+    207.5,
+    -302.7,
+    184.9
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 116,
+   "zero_area": 0,
+   "faces": 12363
+  },
+  {
+   "nama": "Kaki belakang kanan | 257",
+   "collection": "03 Rangka belakang",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    40.6,
+    40.0,
+    700.0
+   ],
+   "min_mm": [
+    559.4,
+    262.7,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "lubang purus untuk rel atas belakang",
+   "nonmanifold": 37,
+   "zero_area": 0,
+   "faces": 5103
+  },
+  {
+   "nama": "Kaki belakang kiri | 257",
+   "collection": "03 Rangka belakang",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    40.6,
+    40.0,
+    700.0
+   ],
+   "min_mm": [
+    -600.0,
+    262.7,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "lubang purus untuk rel atas belakang",
+   "nonmanifold": 37,
+   "zero_area": 0,
+   "faces": 5103
+  },
+  {
+   "nama": "Kaki depan kanan | 2E1",
+   "collection": "02 Rangka depan",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    40.0,
+    40.0,
+    700.0
+   ],
+   "min_mm": [
+    560.0,
+    -297.3,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 72,
+   "zero_area": 0,
+   "faces": 4277
+  },
+  {
+   "nama": "Kaki depan kiri | 2E5",
+   "collection": "02 Rangka depan",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    40.0,
+    40.0,
+    700.0
+   ],
+   "min_mm": [
+    -600.0,
+    -297.3,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 49,
+   "zero_area": 0,
+   "faces": 3585
+  },
+  {
+   "nama": "Klos rel laci kanan baris 1",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    19.7,
+    501.0,
+    60.0
+   ],
+   "min_mm": [
+    560.0,
+    -257.3,
+    532.7
+   ],
+   "potong": "501 x 60 x 19.7",
+   "sambungan": "dilem + sekrup ke sisi; dudukan rel laci rata muka dalam kaki depan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Klos rel laci kanan baris 2",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    19.7,
+    501.0,
+    60.0
+   ],
+   "min_mm": [
+    560.0,
+    -257.3,
+    342.4
+   ],
+   "potong": "501 x 60 x 19.7",
+   "sambungan": "dilem + sekrup ke sisi; dudukan rel laci rata muka dalam kaki depan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Klos rel laci kanan baris 3",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    19.7,
+    501.0,
+    60.0
+   ],
+   "min_mm": [
+    560.0,
+    -257.3,
+    152.0
+   ],
+   "potong": "501 x 60 x 19.7",
+   "sambungan": "dilem + sekrup ke sisi; dudukan rel laci rata muka dalam kaki depan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Klos rel laci kiri baris 1",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    19.7,
+    501.0,
+    60.0
+   ],
+   "min_mm": [
+    -579.7,
+    -257.3,
+    532.7
+   ],
+   "potong": "501 x 60 x 19.7",
+   "sambungan": "dilem + sekrup ke sisi; dudukan rel laci rata muka dalam kaki depan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Klos rel laci kiri baris 2",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    19.7,
+    501.0,
+    60.0
+   ],
+   "min_mm": [
+    -579.7,
+    -257.3,
+    342.4
+   ],
+   "potong": "501 x 60 x 19.7",
+   "sambungan": "dilem + sekrup ke sisi; dudukan rel laci rata muka dalam kaki depan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Klos rel laci kiri baris 3",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    19.7,
+    501.0,
+    60.0
+   ],
+   "min_mm": [
+    -579.7,
+    -257.3,
+    152.0
+   ],
+   "potong": "501 x 60 x 19.7",
+   "sambungan": "dilem + sekrup ke sisi; dudukan rel laci rata muka dalam kaki depan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 1 / belakang 12 mm",
+   "collection": "Laci 1",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    123.0
+   ],
+   "min_mm": [
+    -535.3,
+    220.3,
+    509.7
+   ],
+   "potong": "501.6 x 123 x 12",
+   "sambungan": "duduk di atas panel dasar laci",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 1 / dasar 7 mm",
+   "collection": "Laci 1",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    476.0,
+    7.0
+   ],
+   "min_mm": [
+    -535.3,
+    -255.7,
+    502.7
+   ],
+   "potong": "501.6 x 476 x 7",
+   "sambungan": "masuk alur di sisi & depan dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 1 / depan dalam 12 mm",
+   "collection": "Laci 1",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    140.0
+   ],
+   "min_mm": [
+    -535.3,
+    -267.7,
+    492.7
+   ],
+   "potong": "501.6 x 140 x 12",
+   "sambungan": "front laci disekrup dari dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 1 / sisi kanan 12 mm",
+   "collection": "Laci 1",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    -33.7,
+    -267.7,
+    492.7
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 1 / sisi kiri 12 mm",
+   "collection": "Laci 1",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    -547.3,
+    -267.7,
+    492.7
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 2 / belakang 12 mm",
+   "collection": "Laci 2",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    123.0
+   ],
+   "min_mm": [
+    33.7,
+    220.3,
+    509.7
+   ],
+   "potong": "501.6 x 123 x 12",
+   "sambungan": "duduk di atas panel dasar laci",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 2 / dasar 7 mm",
+   "collection": "Laci 2",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    476.0,
+    7.0
+   ],
+   "min_mm": [
+    33.7,
+    -255.7,
+    502.7
+   ],
+   "potong": "501.6 x 476 x 7",
+   "sambungan": "masuk alur di sisi & depan dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 2 / depan dalam 12 mm",
+   "collection": "Laci 2",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    140.0
+   ],
+   "min_mm": [
+    33.7,
+    -267.7,
+    492.7
+   ],
+   "potong": "501.6 x 140 x 12",
+   "sambungan": "front laci disekrup dari dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 2 / sisi kanan 12 mm",
+   "collection": "Laci 2",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    535.3,
+    -267.7,
+    492.7
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 2 / sisi kiri 12 mm",
+   "collection": "Laci 2",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    21.7,
+    -267.7,
+    492.7
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 3 / belakang 12 mm",
+   "collection": "Laci 3",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    123.0
+   ],
+   "min_mm": [
+    -535.3,
+    220.3,
+    319.4
+   ],
+   "potong": "501.6 x 123 x 12",
+   "sambungan": "duduk di atas panel dasar laci",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 3 / dasar 7 mm",
+   "collection": "Laci 3",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    476.0,
+    7.0
+   ],
+   "min_mm": [
+    -535.3,
+    -255.7,
+    312.4
+   ],
+   "potong": "501.6 x 476 x 7",
+   "sambungan": "masuk alur di sisi & depan dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 3 / depan dalam 12 mm",
+   "collection": "Laci 3",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    140.0
+   ],
+   "min_mm": [
+    -535.3,
+    -267.7,
+    302.4
+   ],
+   "potong": "501.6 x 140 x 12",
+   "sambungan": "front laci disekrup dari dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 3 / sisi kanan 12 mm",
+   "collection": "Laci 3",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    -33.7,
+    -267.7,
+    302.4
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 3 / sisi kiri 12 mm",
+   "collection": "Laci 3",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    -547.3,
+    -267.7,
+    302.4
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 4 / belakang 12 mm",
+   "collection": "Laci 4",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    123.0
+   ],
+   "min_mm": [
+    33.7,
+    220.3,
+    319.4
+   ],
+   "potong": "501.6 x 123 x 12",
+   "sambungan": "duduk di atas panel dasar laci",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 4 / dasar 7 mm",
+   "collection": "Laci 4",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    476.0,
+    7.0
+   ],
+   "min_mm": [
+    33.7,
+    -255.7,
+    312.4
+   ],
+   "potong": "501.6 x 476 x 7",
+   "sambungan": "masuk alur di sisi & depan dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 4 / depan dalam 12 mm",
+   "collection": "Laci 4",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    140.0
+   ],
+   "min_mm": [
+    33.7,
+    -267.7,
+    302.4
+   ],
+   "potong": "501.6 x 140 x 12",
+   "sambungan": "front laci disekrup dari dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 4 / sisi kanan 12 mm",
+   "collection": "Laci 4",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    535.3,
+    -267.7,
+    302.4
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 4 / sisi kiri 12 mm",
+   "collection": "Laci 4",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    21.7,
+    -267.7,
+    302.4
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 5 / belakang 12 mm",
+   "collection": "Laci 5",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    123.0
+   ],
+   "min_mm": [
+    -535.3,
+    220.3,
+    129.0
+   ],
+   "potong": "501.6 x 123 x 12",
+   "sambungan": "duduk di atas panel dasar laci",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 5 / dasar 7 mm",
+   "collection": "Laci 5",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    476.0,
+    7.0
+   ],
+   "min_mm": [
+    -535.3,
+    -255.7,
+    122.0
+   ],
+   "potong": "501.6 x 476 x 7",
+   "sambungan": "masuk alur di sisi & depan dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 5 / depan dalam 12 mm",
+   "collection": "Laci 5",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    140.0
+   ],
+   "min_mm": [
+    -535.3,
+    -267.7,
+    112.0
+   ],
+   "potong": "501.6 x 140 x 12",
+   "sambungan": "front laci disekrup dari dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 5 / sisi kanan 12 mm",
+   "collection": "Laci 5",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    -33.7,
+    -267.7,
+    112.0
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 5 / sisi kiri 12 mm",
+   "collection": "Laci 5",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    -547.3,
+    -267.7,
+    112.0
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 6 / belakang 12 mm",
+   "collection": "Laci 6",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    123.0
+   ],
+   "min_mm": [
+    33.7,
+    220.3,
+    129.0
+   ],
+   "potong": "501.6 x 123 x 12",
+   "sambungan": "duduk di atas panel dasar laci",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 6 / dasar 7 mm",
+   "collection": "Laci 6",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    476.0,
+    7.0
+   ],
+   "min_mm": [
+    33.7,
+    -255.7,
+    122.0
+   ],
+   "potong": "501.6 x 476 x 7",
+   "sambungan": "masuk alur di sisi & depan dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 6 / depan dalam 12 mm",
+   "collection": "Laci 6",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    501.6,
+    12.0,
+    140.0
+   ],
+   "min_mm": [
+    33.7,
+    -267.7,
+    112.0
+   ],
+   "potong": "501.6 x 140 x 12",
+   "sambungan": "front laci disekrup dari dalam",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 6 / sisi kanan 12 mm",
+   "collection": "Laci 6",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    535.3,
+    -267.7,
+    112.0
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Laci 6 / sisi kiri 12 mm",
+   "collection": "Laci 6",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    12.0,
+    500.0,
+    140.0
+   ],
+   "min_mm": [
+    21.7,
+    -267.7,
+    112.0
+   ],
+   "potong": "500 x 140 x 12",
+   "sambungan": "dovetail/dowel ke depan dalam & belakang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Panel belakang 9 mm",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1159.3,
+    9.0,
+    591.1
+   ],
+   "min_mm": [
+    -579.7,
+    253.7,
+    88.9
+   ],
+   "potong": "1159.3 x 591.1 x 9",
+   "sambungan": "masuk alur (rebate) sisi, top & dasar; rata belakang carcass; sudut atas R20 mengikuti lengkung carcass",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 24
+  },
+  {
+   "nama": "Panel dasar 18 mm",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    1159.3,
+    511.0,
+    18.0
+   ],
+   "min_mm": [
+    -579.7,
+    -257.3,
+    88.9
+   ],
+   "potong": "1159.3 x 511 x 18",
+   "sambungan": "dado/dowel ke sisi kiri & kanan, rata bawah sisi",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Partisi tengah 18 mm",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    18.0,
+    511.0,
+    573.1
+   ],
+   "min_mm": [
+    -9.0,
+    -257.3,
+    106.9
+   ],
+   "potong": "573.1 x 511 x 18",
+   "sambungan": "dado ke panel dasar dan bawah top",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Rel atas belakang | 257",
+   "collection": "03 Rangka belakang",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1118.8,
+    40.0,
+    60.0
+   ],
+   "min_mm": [
+    -559.4,
+    262.7,
+    640.0
+   ],
+   "potong": "",
+   "sambungan": "purus-lubang (mortise & tenon) ke kaki belakang",
+   "nonmanifold": 15,
+   "zero_area": 0,
+   "faces": 6229
+  },
+  {
+   "nama": "Rel atas depan | 2E6",
+   "collection": "02 Rangka depan",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1120.0,
+    40.0,
+    40.0
+   ],
+   "min_mm": [
+    -560.0,
+    -297.3,
+    660.0
+   ],
+   "potong": "",
+   "sambungan": "purus-lubang (mortise & tenon) ke kaki depan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 934
+  },
+  {
+   "nama": "Sisi kanan (mitre 45°) | 261",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    26.3,
+    520.0,
+    599.4
+   ],
+   "min_mm": [
+    573.7,
+    -257.3,
+    88.9
+   ],
+   "potong": "611 x 520 x 20.3",
+   "sambungan": "mitre 45° pada lengkung sudut (R dalam 20 / luar 40 mm) + lamello/dowel",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 1144
+  },
+  {
+   "nama": "Sisi kiri (mitre 45°) | 261",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    26.3,
+    520.0,
+    599.4
+   ],
+   "min_mm": [
+    -600.0,
+    -257.3,
+    88.9
+   ],
+   "potong": "611 x 520 x 20.3",
+   "sambungan": "mitre 45° pada lengkung sudut (R dalam 20 / luar 40 mm) + lamello/dowel",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 1144
+  },
+  {
+   "nama": "Top (mitre 45°) | 261",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1176.0,
+    520.0,
+    26.0
+   ],
+   "min_mm": [
+    -588.0,
+    -257.3,
+    674.0
+   ],
+   "potong": "1200 x 520 x 20 (tepi lengkung R40)",
+   "sambungan": "mitre 45° pada lengkung sudut (R dalam 20 / luar 40 mm) + lamello/dowel",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 2287
+  }
+ ],
+ "masalah": [
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Front laci 1 | 2FB",
+   "b": "Handle laci 1 | 2F8",
+   "mm": [
+    163.6,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Front laci 2 | 2F7",
+   "b": "Handle laci 2 | 2E7",
+   "mm": [
+    163.6,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Front laci 3 | 303",
+   "b": "Handle laci 3 | 300",
+   "mm": [
+    163.6,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Front laci 4 | 2FF",
+   "b": "Handle laci 4 | 2FC",
+   "mm": [
+    163.6,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Front laci 5 | 30C",
+   "b": "Handle laci 5 | 309",
+   "mm": [
+    163.6,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Front laci 6 | 308",
+   "b": "Handle laci 6 | 305",
+   "mm": [
+    163.6,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Klos rel laci kanan baris 1",
+   "b": "Sisi kanan (mitre 45°) | 261",
+   "mm": [
+    6.0,
+    501.0,
+    60.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Klos rel laci kanan baris 2",
+   "b": "Sisi kanan (mitre 45°) | 261",
+   "mm": [
+    6.0,
+    501.0,
+    60.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Klos rel laci kanan baris 3",
+   "b": "Sisi kanan (mitre 45°) | 261",
+   "mm": [
+    6.0,
+    501.0,
+    60.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Klos rel laci kiri baris 1",
+   "b": "Sisi kiri (mitre 45°) | 261",
+   "mm": [
+    5.9,
+    501.0,
+    60.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Klos rel laci kiri baris 2",
+   "b": "Sisi kiri (mitre 45°) | 261",
+   "mm": [
+    5.9,
+    501.0,
+    60.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Klos rel laci kiri baris 3",
+   "b": "Sisi kiri (mitre 45°) | 261",
+   "mm": [
+    5.9,
+    501.0,
+    60.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Panel belakang 9 mm",
+   "b": "Sisi kanan (mitre 45°) | 261",
+   "mm": [
+    6.0,
+    9.0,
+    591.1
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Panel belakang 9 mm",
+   "b": "Sisi kiri (mitre 45°) | 261",
+   "mm": [
+    5.9,
+    9.0,
+    591.1
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Panel belakang 9 mm",
+   "b": "Top (mitre 45°) | 261",
+   "mm": [
+    1159.3,
+    9.0,
+    6.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Panel dasar 18 mm",
+   "b": "Sisi kanan (mitre 45°) | 261",
+   "mm": [
+    6.0,
+    511.0,
+    18.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Panel dasar 18 mm",
+   "b": "Sisi kiri (mitre 45°) | 261",
+   "mm": [
+    5.9,
+    511.0,
+    18.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Partisi tengah 18 mm",
+   "b": "Top (mitre 45°) | 261",
+   "mm": [
+    18.0,
+    511.0,
+    6.0
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Sisi kanan (mitre 45°) | 261",
+   "b": "Top (mitre 45°) | 261",
+   "mm": [
+    14.3,
+    520.0,
+    14.3
+   ]
+  },
+  {
+   "jenis": "bbox_tumpang",
+   "a": "Sisi kiri (mitre 45°) | 261",
+   "b": "Top (mitre 45°) | 261",
+   "mm": [
+    14.3,
+    520.0,
+    14.3
+   ]
+  }
+ ],
+ "bbox_mm": [
+  [
+   -600.0,
+   -302.7,
+   0.0
+  ],
+  [
+   600.0,
+   302.7,
+   700.0
+  ]
+ ]
+}

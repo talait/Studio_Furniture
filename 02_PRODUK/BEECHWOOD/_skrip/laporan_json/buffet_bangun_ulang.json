@@ -1,0 +1,990 @@
+{
+ "log": [
+  "10 mesh impor lama (termasuk figur manusia skala & garis lepas) dipindah ke _ARSIP",
+  "Kamera & lampu digeser sama dengan pemusatan produk (x -117,5, y -19,3, z -1 mm)",
+  "Carcass 1800 x 590 x 709 mm, papan 28 mm, 4 sudut mitre 45°, alur belakang 9 x 7",
+  "Sekat 28 mm di x = -450.75, 0.00, 450.75; ruang: 407.25, 422.75, 422.75, 407.25",
+  "4 ambalan 22 mm (1 per ruang), bukaan bersih 315.5 mm x 2 saf",
+  "4 pintu full overlay 447.75 x 709 x 28 mm, celah 3 mm; frame tampak 27 mm mitre 45°",
+  "4 handle DWG dipertahankan, dipasang di stile pertemuan pasangan pintu",
+  "Kaki: balok panjang 1620 + 2 kaki silang 590 (x = ±303.4), tebal 39.4, tinggi 191, sambungan silang setengah 26 mm",
+  "Disimpan"
+ ],
+ "part": [
+  {
+   "nama": "Ambalan 1 22 mm",
+   "collection": "Ambalan ruang 1",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    405.3,
+    579.0,
+    22.0
+   ],
+   "min_mm": [
+    -871.0,
+    -279.0,
+    534.5
+   ],
+   "potong": "405.2 x 579 x 22",
+   "sambungan": "duduk di 4 pen ambalan Ø5, bisa dipindah",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Ambalan 2 22 mm",
+   "collection": "Ambalan ruang 2",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    420.8,
+    579.0,
+    22.0
+   ],
+   "min_mm": [
+    -435.8,
+    -279.0,
+    534.5
+   ],
+   "potong": "420.8 x 579 x 22",
+   "sambungan": "duduk di 4 pen ambalan Ø5, bisa dipindah",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Ambalan 3 22 mm",
+   "collection": "Ambalan ruang 3",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    420.8,
+    579.0,
+    22.0
+   ],
+   "min_mm": [
+    15.0,
+    -279.0,
+    534.5
+   ],
+   "potong": "420.8 x 579 x 22",
+   "sambungan": "duduk di 4 pen ambalan Ø5, bisa dipindah",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Ambalan 4 22 mm",
+   "collection": "Ambalan ruang 4",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    405.3,
+    579.0,
+    22.0
+   ],
+   "min_mm": [
+    465.8,
+    -279.0,
+    534.5
+   ],
+   "potong": "405.2 x 579 x 22",
+   "sambungan": "duduk di 4 pen ambalan Ø5, bisa dipindah",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Dasar (mitre 45°)",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1800.0,
+    590.0,
+    28.0
+   ],
+   "min_mm": [
+    -900.0,
+    -281.0,
+    191.0
+   ],
+   "potong": "1800 x 590 x 28",
+   "sambungan": "mitre 45° + lamello/dowel; alur panel belakang 9 x 7",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Handle pintu 1",
+   "collection": "Pintu 1",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.2
+   ],
+   "min_mm": [
+    -464.2,
+    -348.4,
+    753.5
+   ],
+   "potong": "geometri DWG",
+   "sambungan": "sekrup M4 tembus dari belakang stile",
+   "nonmanifold": 1176,
+   "zero_area": 1,
+   "faces": 14330
+  },
+  {
+   "nama": "Handle pintu 2",
+   "collection": "Pintu 2",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.2
+   ],
+   "min_mm": [
+    -442.6,
+    -348.4,
+    753.5
+   ],
+   "potong": "geometri DWG",
+   "sambungan": "sekrup M4 tembus dari belakang stile",
+   "nonmanifold": 4859,
+   "zero_area": 0,
+   "faces": 10623
+  },
+  {
+   "nama": "Handle pintu 3",
+   "collection": "Pintu 3",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.2
+   ],
+   "min_mm": [
+    437.0,
+    -348.4,
+    753.5
+   ],
+   "potong": "geometri DWG",
+   "sambungan": "sekrup M4 tembus dari belakang stile",
+   "nonmanifold": 5126,
+   "zero_area": 0,
+   "faces": 9527
+  },
+  {
+   "nama": "Handle pintu 4",
+   "collection": "Pintu 4",
+   "peran": "HANDLE",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.2
+   ],
+   "min_mm": [
+    458.5,
+    -348.4,
+    753.5
+   ],
+   "potong": "geometri DWG",
+   "sambungan": "sekrup M4 tembus dari belakang stile",
+   "nonmanifold": 3210,
+   "zero_area": 2,
+   "faces": 12317
+  },
+  {
+   "nama": "Kaki balok panjang",
+   "collection": "04 Kaki",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1620.0,
+    39.4,
+    191.0
+   ],
+   "min_mm": [
+    -810.0,
+    -5.7,
+    0.0
+   ],
+   "potong": "1620 x 191 x 39.4",
+   "sambungan": "silang setengah (half-lap) dengan kaki silang; dowel + sekrup ke dasar carcass",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 68
+  },
+  {
+   "nama": "Kaki silang kanan",
+   "collection": "04 Kaki",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    39.4,
+    590.0,
+    191.0
+   ],
+   "min_mm": [
+    283.7,
+    -281.0,
+    0.0
+   ],
+   "potong": "590 x 191 x 39.4",
+   "sambungan": "silang setengah (half-lap) dengan balok panjang; dowel + sekrup ke dasar carcass",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 64
+  },
+  {
+   "nama": "Kaki silang kiri",
+   "collection": "04 Kaki",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    39.4,
+    590.0,
+    191.0
+   ],
+   "min_mm": [
+    -323.1,
+    -281.0,
+    0.0
+   ],
+   "potong": "590 x 191 x 39.4",
+   "sambungan": "silang setengah (half-lap) dengan balok panjang; dowel + sekrup ke dasar carcass",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 64
+  },
+  {
+   "nama": "Lantai",
+   "collection": "Scene Collection",
+   "peran": "",
+   "ukuran_mm": [
+    20000.0,
+    20000.0,
+    0.0
+   ],
+   "min_mm": [
+    -10000.0,
+    -10000.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "",
+   "nonmanifold": 4,
+   "zero_area": 0,
+   "faces": 1
+  },
+  {
+   "nama": "Panel belakang 7 mm",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    1761.0,
+    7.0,
+    670.0
+   ],
+   "min_mm": [
+    -880.5,
+    302.0,
+    210.5
+   ],
+   "potong": "1761 x 670 x 7",
+   "sambungan": "masuk alur keliling carcass",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Pintu 1 / anyaman rotan",
+   "collection": "Pintu 1",
+   "peran": "RATTAN",
+   "ukuran_mm": [
+    392.8,
+    2.5,
+    654.0
+   ],
+   "min_mm": [
+    -872.5,
+    -305.0,
+    218.5
+   ],
+   "potong": "392.8 x 654.0 x 2.5",
+   "sambungan": "duduk di kantong frame, dikunci les",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Pintu 1 / les rotan",
+   "collection": "Pintu 1",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    392.8,
+    3.5,
+    654.0
+   ],
+   "min_mm": [
+    -872.5,
+    -308.5,
+    218.5
+   ],
+   "potong": "setengah bulat R3.5 keliling",
+   "sambungan": "dipaku tembak ke frame, menjepit tepi rotan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 52
+  },
+  {
+   "nama": "Pintu 1 / rail atas",
+   "collection": "Pintu 1",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.8,
+    28.0,
+    33.5
+   ],
+   "min_mm": [
+    -900.0,
+    -309.0,
+    866.5
+   ],
+   "potong": "447.8 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 1 / rail bawah",
+   "collection": "Pintu 1",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.8,
+    28.0,
+    33.5
+   ],
+   "min_mm": [
+    -900.0,
+    -309.0,
+    191.0
+   ],
+   "potong": "447.8 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 1 / stile kanan",
+   "collection": "Pintu 1",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    33.5,
+    28.0,
+    709.0
+   ],
+   "min_mm": [
+    -485.8,
+    -309.0,
+    191.0
+   ],
+   "potong": "709.0 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 1 / stile kiri",
+   "collection": "Pintu 1",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    33.5,
+    28.0,
+    709.0
+   ],
+   "min_mm": [
+    -900.0,
+    -309.0,
+    191.0
+   ],
+   "potong": "709.0 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 2 / anyaman rotan",
+   "collection": "Pintu 2",
+   "peran": "RATTAN",
+   "ukuran_mm": [
+    392.8,
+    2.5,
+    654.0
+   ],
+   "min_mm": [
+    -421.8,
+    -305.0,
+    218.5
+   ],
+   "potong": "392.8 x 654.0 x 2.5",
+   "sambungan": "duduk di kantong frame, dikunci les",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Pintu 2 / les rotan",
+   "collection": "Pintu 2",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    392.8,
+    3.5,
+    654.0
+   ],
+   "min_mm": [
+    -421.8,
+    -308.5,
+    218.5
+   ],
+   "potong": "setengah bulat R3.5 keliling",
+   "sambungan": "dipaku tembak ke frame, menjepit tepi rotan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 52
+  },
+  {
+   "nama": "Pintu 2 / rail atas",
+   "collection": "Pintu 2",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.8,
+    28.0,
+    33.5
+   ],
+   "min_mm": [
+    -449.3,
+    -309.0,
+    866.5
+   ],
+   "potong": "447.8 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 2 / rail bawah",
+   "collection": "Pintu 2",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.7,
+    28.0,
+    33.5
+   ],
+   "min_mm": [
+    -449.2,
+    -309.0,
+    191.0
+   ],
+   "potong": "447.8 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 2 / stile kanan",
+   "collection": "Pintu 2",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    33.5,
+    28.0,
+    709.0
+   ],
+   "min_mm": [
+    -35.0,
+    -309.0,
+    191.0
+   ],
+   "potong": "709.0 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 2 / stile kiri",
+   "collection": "Pintu 2",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    33.5,
+    28.0,
+    709.0
+   ],
+   "min_mm": [
+    -449.3,
+    -309.0,
+    191.0
+   ],
+   "potong": "709.0 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 3 / anyaman rotan",
+   "collection": "Pintu 3",
+   "peran": "RATTAN",
+   "ukuran_mm": [
+    392.8,
+    2.5,
+    654.0
+   ],
+   "min_mm": [
+    29.0,
+    -305.0,
+    218.5
+   ],
+   "potong": "392.8 x 654.0 x 2.5",
+   "sambungan": "duduk di kantong frame, dikunci les",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Pintu 3 / les rotan",
+   "collection": "Pintu 3",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    392.8,
+    3.5,
+    654.0
+   ],
+   "min_mm": [
+    29.0,
+    -308.5,
+    218.5
+   ],
+   "potong": "setengah bulat R3.5 keliling",
+   "sambungan": "dipaku tembak ke frame, menjepit tepi rotan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 52
+  },
+  {
+   "nama": "Pintu 3 / rail atas",
+   "collection": "Pintu 3",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.8,
+    28.0,
+    33.5
+   ],
+   "min_mm": [
+    1.5,
+    -309.0,
+    866.5
+   ],
+   "potong": "447.8 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 3 / rail bawah",
+   "collection": "Pintu 3",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.7,
+    28.0,
+    33.5
+   ],
+   "min_mm": [
+    1.5,
+    -309.0,
+    191.0
+   ],
+   "potong": "447.8 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 3 / stile kanan",
+   "collection": "Pintu 3",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    33.5,
+    28.0,
+    709.0
+   ],
+   "min_mm": [
+    415.8,
+    -309.0,
+    191.0
+   ],
+   "potong": "709.0 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 3 / stile kiri",
+   "collection": "Pintu 3",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    33.5,
+    28.0,
+    709.0
+   ],
+   "min_mm": [
+    1.5,
+    -309.0,
+    191.0
+   ],
+   "potong": "709.0 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 4 / anyaman rotan",
+   "collection": "Pintu 4",
+   "peran": "RATTAN",
+   "ukuran_mm": [
+    392.8,
+    2.5,
+    654.0
+   ],
+   "min_mm": [
+    479.8,
+    -305.0,
+    218.5
+   ],
+   "potong": "392.8 x 654.0 x 2.5",
+   "sambungan": "duduk di kantong frame, dikunci les",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Pintu 4 / les rotan",
+   "collection": "Pintu 4",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    392.8,
+    3.5,
+    654.0
+   ],
+   "min_mm": [
+    479.8,
+    -308.5,
+    218.5
+   ],
+   "potong": "setengah bulat R3.5 keliling",
+   "sambungan": "dipaku tembak ke frame, menjepit tepi rotan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 52
+  },
+  {
+   "nama": "Pintu 4 / rail atas",
+   "collection": "Pintu 4",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.8,
+    28.0,
+    33.5
+   ],
+   "min_mm": [
+    452.3,
+    -309.0,
+    866.5
+   ],
+   "potong": "447.8 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 4 / rail bawah",
+   "collection": "Pintu 4",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    447.8,
+    28.0,
+    33.5
+   ],
+   "min_mm": [
+    452.3,
+    -309.0,
+    191.0
+   ],
+   "potong": "447.8 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 4 / stile kanan",
+   "collection": "Pintu 4",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    33.5,
+    28.0,
+    709.0
+   ],
+   "min_mm": [
+    866.5,
+    -309.0,
+    191.0
+   ],
+   "potong": "709.0 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Pintu 4 / stile kiri",
+   "collection": "Pintu 4",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    33.5,
+    28.0,
+    709.0
+   ],
+   "min_mm": [
+    452.3,
+    -309.0,
+    191.0
+   ],
+   "potong": "709.0 x 33.5 x 28",
+   "sambungan": "mitre 45° + spline/dowel; kantong rotan 6,5 x 6,5 di muka",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Sekat 1",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    28.0,
+    583.0,
+    653.0
+   ],
+   "min_mm": [
+    -464.8,
+    -281.0,
+    219.0
+   ],
+   "potong": "653 x 583 x 28",
+   "sambungan": "dado 6 mm / dowel ke top & dasar",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Sekat 2",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    28.0,
+    583.0,
+    653.0
+   ],
+   "min_mm": [
+    -14.0,
+    -281.0,
+    219.0
+   ],
+   "potong": "653 x 583 x 28",
+   "sambungan": "dado 6 mm / dowel ke top & dasar",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Sekat 3",
+   "collection": "01 Carcass",
+   "peran": "WOOD_B",
+   "ukuran_mm": [
+    28.0,
+    583.0,
+    653.0
+   ],
+   "min_mm": [
+    436.8,
+    -281.0,
+    219.0
+   ],
+   "potong": "653 x 583 x 28",
+   "sambungan": "dado 6 mm / dowel ke top & dasar",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 6
+  },
+  {
+   "nama": "Sisi kanan (mitre 45°)",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    28.0,
+    590.0,
+    709.0
+   ],
+   "min_mm": [
+    872.0,
+    -281.0,
+    191.0
+   ],
+   "potong": "709 x 590 x 28",
+   "sambungan": "mitre 45° + lamello/dowel; alur panel belakang 9 x 7",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Sisi kiri (mitre 45°)",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    28.0,
+    590.0,
+    709.0
+   ],
+   "min_mm": [
+    -900.0,
+    -281.0,
+    191.0
+   ],
+   "potong": "709 x 590 x 28",
+   "sambungan": "mitre 45° + lamello/dowel; alur panel belakang 9 x 7",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  },
+  {
+   "nama": "Top (mitre 45°)",
+   "collection": "01 Carcass",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1800.0,
+    590.0,
+    28.0
+   ],
+   "min_mm": [
+    -900.0,
+    -281.0,
+    872.0
+   ],
+   "potong": "1800 x 590 x 28",
+   "sambungan": "mitre 45° + lamello/dowel; alur panel belakang 9 x 7",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 8
+  }
+ ],
+ "masalah": [],
+ "tembus": [
+  [
+   "Pintu 1 / les rotan",
+   "Pintu 1 / stile kiri",
+   1,
+   0
+  ],
+  [
+   "Pintu 2 / les rotan",
+   "Pintu 2 / stile kanan",
+   1,
+   0
+  ],
+  [
+   "Pintu 3 / les rotan",
+   "Pintu 3 / rail atas",
+   2,
+   0
+  ],
+  [
+   "Pintu 3 / les rotan",
+   "Pintu 3 / rail bawah",
+   2,
+   0
+  ],
+  [
+   "Pintu 3 / les rotan",
+   "Pintu 3 / stile kiri",
+   3,
+   0
+  ],
+  [
+   "Pintu 4 / les rotan",
+   "Pintu 4 / rail atas",
+   1,
+   0
+  ],
+  [
+   "Pintu 4 / les rotan",
+   "Pintu 4 / stile kanan",
+   1,
+   0
+  ],
+  [
+   "Pintu 4 / les rotan",
+   "Pintu 4 / stile kiri",
+   2,
+   0
+  ]
+ ],
+ "bbox_mm": [
+  [
+   -10000.0,
+   -10000.0,
+   0.0
+  ],
+  [
+   10000.0,
+   10000.0,
+   900.0
+  ]
+ ],
+ "unparented": [
+  "Fill",
+  "Kamera",
+  "Lama: Mesh_0_13",
+  "Lama: Mesh_0_166",
+  "Lama: Mesh_0_18",
+  "Lama: Mesh_0_23",
+  "Lama: Mesh_0_253",
+  "Lama: Mesh_0_254",
+  "Lama: Mesh_0_27",
+  "Lama: Mesh_0_28",
+  "Lama: Mesh_0_40",
+  "Lama: Mesh_0_9",
+  "Lantai",
+  "Matahari"
+ ],
+ "collection": [
+  "PROD | Beechwood Buffet (1)",
+  "  01 Carcass (8)",
+  "  02 Ambalan (0)",
+  "    Ambalan ruang 1 (1)",
+  "    Ambalan ruang 2 (1)",
+  "    Ambalan ruang 3 (1)",
+  "    Ambalan ruang 4 (1)",
+  "  03 Pintu (0)",
+  "    Pintu 1 (8)",
+  "    Pintu 2 (8)",
+  "    Pintu 3 (8)",
+  "    Pintu 4 (8)",
+  "  04 Kaki (3)",
+  "  _ARSIP sisa DWG (tidak dipakai) (10)"
+ ]
+}

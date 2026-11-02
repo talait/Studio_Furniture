@@ -1,0 +1,118 @@
+{
+  "nama": "Doheny Lifestyle studio - tekstur latar",
+  "versi": "2026-10-29",
+  "dinding_belakang_kiri_plafon": {
+    "material": "Lifestyle | Matte Off-White",
+    "hex": "#E9E6E0",
+    "linear_rgb": [
+      0.815,
+      0.788,
+      0.745
+    ],
+    "roughness": 0.88,
+    "specular_ior_level": 0.2,
+    "file_swatch": "Lifestyle_Dinding_MatteOffWhite_E9E6E0.png"
+  },
+  "lantai": {
+    "material": "Lifestyle | Lantai Semen Microcement",
+    "sumber": "procedural Blender, di-bake menjadi tile mulus (seamless)",
+    "ukuran_tile_m": 2.0,
+    "resolusi_px": 4096,
+    "mm_per_px": 0.488,
+    "maps": {
+      "base_color": {
+        "file": "Lifestyle_Microcement_BaseColor.png",
+        "color_space": "sRGB"
+      },
+      "roughness": {
+        "file": "Lifestyle_Microcement_Roughness.png",
+        "color_space": "Non-Color",
+        "range": [
+          0.62,
+          0.85
+        ]
+      },
+      "normal": {
+        "file": "Lifestyle_Microcement_Normal_GL.png",
+        "color_space": "Non-Color",
+        "format": "OpenGL (Y+) - Blender, Unity; untuk DirectX/Unreal/3ds Max balik kanal hijau"
+      },
+      "height": {
+        "file": "Lifestyle_Microcement_Height.png",
+        "color_space": "Non-Color",
+        "bit": 16,
+        "catatan": "gabungan noise 0..1; bump asli strength 0.5, distance 0.004 m"
+      }
+    },
+    "ramp_warna": [
+      {
+        "posisi": 0.22,
+        "hex": "#7C7771",
+        "linear_rgb": [
+          0.2,
+          0.185,
+          0.165
+        ]
+      },
+      {
+        "posisi": 0.78,
+        "hex": "#B5AFA9",
+        "linear_rgb": [
+          0.46,
+          0.43,
+          0.395
+        ]
+      }
+    ],
+    "noise": [
+      {
+        "skala": 0.9,
+        "detail": 6,
+        "bobot": 0.4
+      },
+      {
+        "skala": 9,
+        "detail": 8,
+        "bobot": 0.42
+      },
+      {
+        "skala": 120,
+        "detail": 10,
+        "bobot": 0.18
+      }
+    ],
+    "specular_ior_level": 0.25
+  },
+  "world": {
+    "hex": "#BCBCBC",
+    "strength": 0.15
+  },
+  "lampu": {
+    "Key Sun": {
+      "tipe": "SUN",
+      "energy": 22,
+      "warna": "#FFFFFF",
+      "angle_deg": 6,
+      "arah": "depan-kanan, elevasi 35 deg"
+    },
+    "Sky Fill": {
+      "tipe": "SUN",
+      "energy": 6,
+      "warna": "#FFFFFF",
+      "angle_deg": 80,
+      "arah": "depan, elevasi 50 deg"
+    }
+  },
+  "render": {
+    "engine": "CYCLES",
+    "view_transform": "Khronos PBR Neutral",
+    "exposure": -2.5,
+    "gamma": 1.0,
+    "resolusi": [
+      1920,
+      1080
+    ]
+  },
+  "jarak_dinding_dari_produk_m": 1.5,
+  "tinggi_plafon_m": 2.8
+}

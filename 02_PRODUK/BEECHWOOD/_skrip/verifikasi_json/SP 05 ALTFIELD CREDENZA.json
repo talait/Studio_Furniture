@@ -1,0 +1,722 @@
+{
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\SP 05 ALTFIELD CREDENZA.blend",
+ "scene": "PRODUK | Altfield Credenza SP 05",
+ "unit": [
+  "METRIC",
+  "CENTIMETERS",
+  1.0
+ ],
+ "objek": [
+  {
+   "nama": "Badan kabinet (carcass + top)",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    1800.5,
+    590.6,
+    709.3
+   ],
+   "verts": 24,
+   "faces": 23,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle pintu 1",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "verts": 4923,
+   "faces": 7800,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle pintu 2",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "verts": 4863,
+   "faces": 7768,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle pintu 3",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    5.6,
+    39.5,
+    56.3
+   ],
+   "verts": 4870,
+   "faces": 7692,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle pintu 4",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    5.6,
+    39.5,
+    56.3
+   ],
+   "verts": 4879,
+   "faces": 7780,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki kanan",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    39.4,
+    590.6,
+    191.3
+   ],
+   "verts": 980,
+   "faces": 1333,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki kiri",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    39.4,
+    590.6,
+    191.2
+   ],
+   "verts": 990,
+   "faces": 1348,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Palang kaki tengah",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    1620.0,
+    39.5,
+    191.2
+   ],
+   "verts": 858,
+   "faces": 1068,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Panel belakang",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    1761.7,
+    6.8,
+    670.5
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Panel dalam sekat 1 (tersembunyi)",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    20.3,
+    471.4,
+    540.1
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Panel dalam sekat 2 (tersembunyi)",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    20.2,
+    471.4,
+    540.1
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Panel dalam sekat 3 (tersembunyi)",
+   "tipe": "MESH",
+   "koleksi": [
+    "_ARSIP sisa DWG (tidak dipakai)"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    20.2,
+    471.4,
+    540.1
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Pintu 1",
+   "tipe": "MESH",
+   "koleksi": [
+    "Pintu"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    447.8,
+    28.1,
+    708.8
+   ],
+   "verts": 897,
+   "faces": 1420,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Pintu 2",
+   "tipe": "MESH",
+   "koleksi": [
+    "Pintu"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    447.7,
+    28.2,
+    708.8
+   ],
+   "verts": 888,
+   "faces": 1422,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Pintu 3",
+   "tipe": "MESH",
+   "koleksi": [
+    "Pintu"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    447.7,
+    28.2,
+    708.8
+   ],
+   "verts": 883,
+   "faces": 1405,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Pintu 4",
+   "tipe": "MESH",
+   "koleksi": [
+    "Pintu"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    447.8,
+    28.1,
+    708.8
+   ],
+   "verts": 888,
+   "faces": 1404,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "PROD | Altfield Credenza SP 05"
+   ],
+   "parent": null
+  },
+  {
+   "nama": "Rak bay 1",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    411.7,
+    583.9,
+    22.5
+   ],
+   "verts": 16,
+   "faces": 10,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Rak bay 2",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    429.7,
+    583.9,
+    22.5
+   ],
+   "verts": 24,
+   "faces": 14,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Rak bay 3",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    429.7,
+    583.9,
+    22.5
+   ],
+   "verts": 24,
+   "faces": 14,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Rak bay 4",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    411.7,
+    583.9,
+    22.5
+   ],
+   "verts": 16,
+   "faces": 10,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Sekat vertikal 1",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    28.1,
+    583.9,
+    653.8
+   ],
+   "verts": 24,
+   "faces": 24,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Sekat vertikal 2",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    28.1,
+    583.9,
+    653.8
+   ],
+   "verts": 24,
+   "faces": 24,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Sekat vertikal 3",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensi_mm": [
+    28.1,
+    583.9,
+    653.8
+   ],
+   "verts": 29,
+   "faces": 25,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "pface",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  }
+ ],
+ "koleksi": [
+  {
+   "nama": "Scene Collection",
+   "level": 0,
+   "jumlah_objek": 0
+  },
+  {
+   "nama": "PROD | Altfield Credenza SP 05",
+   "level": 1,
+   "jumlah_objek": 1
+  },
+  {
+   "nama": "Hardware",
+   "level": 2,
+   "jumlah_objek": 4
+  },
+  {
+   "nama": "Pintu",
+   "level": 2,
+   "jumlah_objek": 4
+  },
+  {
+   "nama": "Badan",
+   "level": 2,
+   "jumlah_objek": 9
+  },
+  {
+   "nama": "_ARSIP sisa DWG (tidak dipakai)",
+   "level": 2,
+   "jumlah_objek": 3
+  },
+  {
+   "nama": "Kaki",
+   "level": 2,
+   "jumlah_objek": 3
+  }
+ ],
+ "masalah": [],
+ "koleksi_dikecualikan": [
+  "_ARSIP sisa DWG (tidak dipakai)"
+ ],
+ "root": [
+  {
+   "nama": "PRODUCT_ROOT | Altfield Credenza SP 05",
+   "dimensions_cm": [
+    180.0,
+    65.81,
+    90.0
+   ],
+   "source": "SP 05 ALTFIELD CREDENZA.dwg",
+   "catatan": "Model mesh SketchUp-style (bukan solid): 4 pintu overlay 447,7 x 708,8 x 28 mm, 4 handle, carcass, 3 sekat, 4 rak, panel belakang, 2 kaki bilah + palang. Pintu 1 & 4 menyatu dengan carcass setelah weld -> dipisah menurut kotak muka (warna 23); panel cekung pintu (warna 18/254) dan pelat handle digabung ke pintu/handle-nya. Tiga panel tipis yang seluruhnya berada di dalam sekat vertikal disimpan di _ARSIP (geometri tersembunyi). 160.640 LINE (148.883 panjang 0) dan serpihan warna 0 (27 pulau < 2 mm) diabaikan."
+  }
+ ],
+ "bbox_aktif_mm": {
+  "min": [
+   -900.0,
+   -329.1,
+   0.0
+  ],
+  "max": [
+   900.0,
+   329.1,
+   900.0
+  ],
+  "ukuran": [
+   1800.0,
+   658.1,
+   900.0
+  ]
+ },
+ "jumlah_mesh": 23,
+ "material": [
+  {
+   "nama": "ROLE | HANDLE",
+   "ns_role": "HANDLE"
+  },
+  {
+   "nama": "ROLE | WOOD_A",
+   "ns_role": "WOOD_A"
+  }
+ ],
+ "gambar_belum_pack": []
+}

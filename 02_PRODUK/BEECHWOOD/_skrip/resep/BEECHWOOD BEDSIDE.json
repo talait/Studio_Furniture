@@ -1,0 +1,98 @@
+{
+ "nama": "Beechwood Bedside",
+ "kategori": "NAKAS",
+ "dwg": "BEECHWOOD BEDSIDE.dwg",
+ "skala": 0.001,
+ "mode": "solid",
+ "sumber_obj": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\obj\\BEECHWOOD BEDSIDE.obj",
+ "file_out": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD BEDSIDE.blend",
+ "thumb": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\thumb\\BEECHWOOD BEDSIDE.png",
+ "laporan_json": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\laporan\\BEECHWOOD BEDSIDE.json",
+ "geometry_source": "DWG 2018 3DSOLID (ACIS SAB) -> tessellasi dwg2obj (LibreDWG + ezdxf)",
+ "unit_assumption": "angka DWG dibaca sebagai mm (INSUNITS=4 mm)",
+ "weld_m": 1e-05,
+ "part": {
+  "2C2": {
+   "nama": "Kaki depan kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2C5": {
+   "nama": "Kaki belakang kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2C8": {
+   "nama": "Kaki depan kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2CB": {
+   "nama": "Kaki belakang kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2CE": {
+   "nama": "Rel atas belakang",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2D7": {
+   "nama": "Rel atas depan",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2CF": {
+   "nama": "Badan kabinet (carcass + top)",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2D0": {
+   "nama": "Panel belakang",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2D8": {
+   "nama": "Rak dasar",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "2D6": {
+   "nama": "Front laci 1",
+   "peran": "WOOD_A",
+   "grup": "Laci"
+  },
+  "2D3": {
+   "nama": "Handle laci 1",
+   "peran": "HANDLE",
+   "grup": "Hardware"
+  }
+ },
+ "badan_handle": "2CF",
+ "laci": {
+  "1": {
+   "part": [
+    "2D6",
+    "2D3"
+   ],
+   "travel_m": 0.3,
+   "kotak": true
+  }
+ },
+ "fit_kolom": [
+  {
+   "front": [
+    "2D6"
+   ],
+   "z0_mm": -663.9,
+   "z1_mm": -543.9,
+   "celah_mm": 1.5,
+   "ikut": {
+    "2D6": [
+     "2D3"
+    ]
+   }
+  }
+ ],
+ "catatan": "Front laci diberi celah bayangan 1,5 mm (standar v2); handle ikut. Rak dasar (panel 18 mm, 550 x 500) di DWG digambar menerus sehingga keempat kaki menembusnya di sudut; takik boolean dicoba (EXACT dan FLOAT) tetapi hasilnya pecah karena mesh tessellasi rak, jadi rak dibiarkan sesuai DWG (tumpang tindih tersembunyi di dalam kaki, tidak terlihat)."
+}

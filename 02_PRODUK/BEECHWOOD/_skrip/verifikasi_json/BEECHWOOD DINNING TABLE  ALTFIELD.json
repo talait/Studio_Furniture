@@ -1,0 +1,431 @@
+{
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD DINNING TABLE  ALTFIELD.blend",
+ "scene": "PRODUK | Beechwood Dining Table Altfield",
+ "unit": [
+  "METRIC",
+  "CENTIMETERS",
+  1.0
+ ],
+ "objek": [
+  {
+   "nama": "Kaki kanan belakang | 28E",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "verts": 1253,
+   "faces": 2098,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "28E",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki kanan depan | 291",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "verts": 1325,
+   "faces": 2213,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "291",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki kiri belakang | 274",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "verts": 1253,
+   "faces": 2096,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "274",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki kiri depan | 278",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "verts": 1325,
+   "faces": 2213,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "278",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki ujung kanan | 2A7",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    100.0,
+    50.0,
+    720.0
+   ],
+   "verts": 1253,
+   "faces": 2096,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2A7",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki ujung kiri | 27C",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    100.0,
+    50.0,
+    720.0
+   ],
+   "verts": 1253,
+   "faces": 2098,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "27C",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Palang atas kanan | 2BB",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "verts": 16,
+   "faces": 10,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2BB",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Palang atas kiri | 2B7",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "verts": 16,
+   "faces": 10,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2B7",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Palang bawah kanan | 2B9",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "verts": 16,
+   "faces": 10,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2B9",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Palang bawah kiri | 2B4",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "verts": 16,
+   "faces": 10,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2B4",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "PROD | Beechwood Dining Table Altfield"
+   ],
+   "parent": null
+  },
+  {
+   "nama": "Rel atas memanjang | 2BC",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    1700.0,
+    50.0,
+    50.0
+   ],
+   "verts": 24,
+   "faces": 14,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2BC",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Rel bawah memanjang | 2BA",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    1700.0,
+    50.0,
+    50.0
+   ],
+   "verts": 24,
+   "faces": 14,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2BA",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Top meja | 29F",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensi_mm": [
+    2100.0,
+    800.0,
+    30.0
+   ],
+   "verts": 419,
+   "faces": 665,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "29F",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  }
+ ],
+ "koleksi": [
+  {
+   "nama": "Scene Collection",
+   "level": 0,
+   "jumlah_objek": 0
+  },
+  {
+   "nama": "PROD | Beechwood Dining Table Altfield",
+   "level": 1,
+   "jumlah_objek": 1
+  },
+  {
+   "nama": "Kaki",
+   "level": 2,
+   "jumlah_objek": 12
+  },
+  {
+   "nama": "Badan",
+   "level": 2,
+   "jumlah_objek": 1
+  }
+ ],
+ "masalah": [],
+ "koleksi_dikecualikan": [],
+ "root": [
+  {
+   "nama": "PRODUCT_ROOT | Beechwood Dining Table Altfield",
+   "dimensions_cm": [
+    210.0,
+    80.0,
+    75.0
+   ],
+   "source": "BEECHWOOD DINNING TABLE  ALTFIELD.dwg",
+   "catatan": "Handle 29F (top) punya >1 blob ACIS di file (riwayat edit); versi terakhir dipakai (2100 x 800 x 30 mm). Garis 2D (LINE/LWPOLYLINE tampak gambar) diabaikan."
+  }
+ ],
+ "bbox_aktif_mm": {
+  "min": [
+   -1050.0,
+   -400.0,
+   0.0
+  ],
+  "max": [
+   1050.0,
+   400.0,
+   750.0
+  ],
+  "ukuran": [
+   2100.0,
+   800.0,
+   750.0
+  ]
+ },
+ "jumlah_mesh": 13,
+ "material": [
+  {
+   "nama": "ROLE | WOOD_A",
+   "ns_role": "WOOD_A"
+  }
+ ],
+ "gambar_belum_pack": []
+}

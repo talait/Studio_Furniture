@@ -1,0 +1,1183 @@
+{
+ "nama": "Altfield Credenza SP 05",
+ "catatan": [
+  "pisah 'Pintu 1' dari warna_1: 1418 muka",
+  "pisah 'Pintu 2' dari warna_1: 1419 muka",
+  "pisah 'Pintu 3' dari warna_1: 1401 muka",
+  "pisah 'Pintu 4' dari warna_1: 1402 muka",
+  "objek impor 'warna_2' diabaikan (52 muka, serpihan)",
+  "'Handle pintu 3': 2 pulau digabung jadi satu objek (7807 muka)",
+  "'Pintu 4': 3 pulau digabung jadi satu objek (1404 muka)",
+  "'Handle pintu 2': 2 pulau digabung jadi satu objek (7896 muka)",
+  "'Handle pintu 1': 2 pulau digabung jadi satu objek (7906 muka)",
+  "'Handle pintu 4': 2 pulau digabung jadi satu objek (7906 muka)",
+  "'Pintu 3': 4 pulau digabung jadi satu objek (1405 muka)",
+  "'Pintu 2': 4 pulau digabung jadi satu objek (1423 muka)",
+  "'Pintu 1': 3 pulau digabung jadi satu objek (1420 muka)"
+ ],
+ "part": [
+  {
+   "nama": "Handle pintu 3",
+   "handle": "pface",
+   "peran": "HANDLE",
+   "grup": "Hardware",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "min_mm": [
+    -2.8,
+    -19.7,
+    -28.1
+   ],
+   "sebelum_vf": [
+    4976,
+    7807
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 61,
+    "boundary": 55,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 4870,
+    "faces": 7692
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Pintu 4",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Pintu",
+   "ukuran_mm": [
+    447.7,
+    28.1,
+    708.8
+   ],
+   "min_mm": [
+    -223.9,
+    -14.1,
+    -354.4
+   ],
+   "sebelum_vf": [
+    904,
+    1404
+   ],
+   "tjunc_split": [
+    14,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 104,
+    "boundary": 26,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 888,
+    "faces": 1404
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Handle pintu 2",
+   "handle": "pface",
+   "peran": "HANDLE",
+   "grup": "Hardware",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "min_mm": [
+    -2.8,
+    -19.7,
+    -28.1
+   ],
+   "sebelum_vf": [
+    4978,
+    7896
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 83,
+    "boundary": 80,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 4863,
+    "faces": 7768
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Handle pintu 1",
+   "handle": "pface",
+   "peran": "HANDLE",
+   "grup": "Hardware",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "min_mm": [
+    -2.8,
+    -19.7,
+    -28.1
+   ],
+   "sebelum_vf": [
+    5017,
+    7906
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 63,
+    "boundary": 60,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 4923,
+    "faces": 7800
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Handle pintu 4",
+   "handle": "pface",
+   "peran": "HANDLE",
+   "grup": "Hardware",
+   "ukuran_mm": [
+    5.6,
+    39.4,
+    56.3
+   ],
+   "min_mm": [
+    -2.8,
+    -19.7,
+    -28.1
+   ],
+   "sebelum_vf": [
+    4987,
+    7906
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 91,
+    "boundary": 85,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 4879,
+    "faces": 7780
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Pintu 3",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Pintu",
+   "ukuran_mm": [
+    447.7,
+    28.1,
+    708.8
+   ],
+   "min_mm": [
+    -223.9,
+    -14.1,
+    -354.4
+   ],
+   "sebelum_vf": [
+    904,
+    1405
+   ],
+   "tjunc_split": [
+    13,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 124,
+    "boundary": 33,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 883,
+    "faces": 1405
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Pintu 2",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Pintu",
+   "ukuran_mm": [
+    447.7,
+    28.1,
+    708.8
+   ],
+   "min_mm": [
+    -223.9,
+    -14.1,
+    -354.4
+   ],
+   "sebelum_vf": [
+    910,
+    1423
+   ],
+   "tjunc_split": [
+    13,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 116,
+    "boundary": 26,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 888,
+    "faces": 1422
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Pintu 1",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Pintu",
+   "ukuran_mm": [
+    447.8,
+    28.1,
+    708.8
+   ],
+   "min_mm": [
+    -223.9,
+    -14.1,
+    -354.4
+   ],
+   "sebelum_vf": [
+    913,
+    1420
+   ],
+   "tjunc_split": [
+    14,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 138,
+    "boundary": 42,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 897,
+    "faces": 1420
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Badan kabinet (carcass + top)",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    1800.0,
+    590.6,
+    708.8
+   ],
+   "min_mm": [
+    -900.0,
+    -295.3,
+    -354.4
+   ],
+   "sebelum_vf": [
+    24,
+    23
+   ],
+   "tjunc_split": [
+    2,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 25,
+    "boundary": 9,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 24,
+    "faces": 23
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Panel belakang",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    1761.7,
+    6.8,
+    670.5
+   ],
+   "min_mm": [
+    -880.9,
+    -3.4,
+    -335.2
+   ],
+   "sebelum_vf": [
+    8,
+    6
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 8,
+    "faces": 6
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Sekat vertikal 3",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    28.1,
+    583.9,
+    652.6
+   ],
+   "min_mm": [
+    -14.1,
+    -291.9,
+    -326.3
+   ],
+   "sebelum_vf": [
+    29,
+    25
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 10,
+    "boundary": 6,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 29,
+    "faces": 25
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Panel dalam sekat 3 (tersembunyi)",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "_ARSIP sisa DWG (tidak dipakai)",
+   "ukuran_mm": [
+    20.2,
+    471.4,
+    540.1
+   ],
+   "min_mm": [
+    -10.1,
+    -235.7,
+    -270.1
+   ],
+   "sebelum_vf": [
+    8,
+    6
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 8,
+    "faces": 6
+   },
+   "arsip": true,
+   "tambahan": false
+  },
+  {
+   "nama": "Sekat vertikal 2",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    28.1,
+    583.9,
+    652.6
+   ],
+   "min_mm": [
+    -14.1,
+    -291.9,
+    -326.3
+   ],
+   "sebelum_vf": [
+    24,
+    24
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 4,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 24,
+    "faces": 24
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Panel dalam sekat 2 (tersembunyi)",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "_ARSIP sisa DWG (tidak dipakai)",
+   "ukuran_mm": [
+    20.2,
+    471.4,
+    540.1
+   ],
+   "min_mm": [
+    -10.1,
+    -235.7,
+    -270.1
+   ],
+   "sebelum_vf": [
+    8,
+    6
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 8,
+    "faces": 6
+   },
+   "arsip": true,
+   "tambahan": false
+  },
+  {
+   "nama": "Sekat vertikal 1",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    28.1,
+    583.9,
+    652.6
+   ],
+   "min_mm": [
+    -14.1,
+    -291.9,
+    -326.3
+   ],
+   "sebelum_vf": [
+    24,
+    24
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 4,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 24,
+    "faces": 24
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Panel dalam sekat 1 (tersembunyi)",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "_ARSIP sisa DWG (tidak dipakai)",
+   "ukuran_mm": [
+    20.3,
+    471.4,
+    540.1
+   ],
+   "min_mm": [
+    -10.1,
+    -235.7,
+    -270.1
+   ],
+   "sebelum_vf": [
+    8,
+    6
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 8,
+    "faces": 6
+   },
+   "arsip": true,
+   "tambahan": false
+  },
+  {
+   "nama": "Rak bay 1",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    411.7,
+    583.9,
+    22.5
+   ],
+   "min_mm": [
+    -205.9,
+    -291.9,
+    -11.3
+   ],
+   "sebelum_vf": [
+    16,
+    10
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 16,
+    "faces": 10
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Rak bay 2",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    429.7,
+    583.9,
+    22.5
+   ],
+   "min_mm": [
+    -214.9,
+    -291.9,
+    -11.2
+   ],
+   "sebelum_vf": [
+    24,
+    14
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 24,
+    "faces": 14
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Rak bay 3",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    429.7,
+    583.9,
+    22.5
+   ],
+   "min_mm": [
+    -214.9,
+    -291.9,
+    -11.2
+   ],
+   "sebelum_vf": [
+    24,
+    14
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 24,
+    "faces": 14
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Rak bay 4",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    411.7,
+    583.9,
+    22.5
+   ],
+   "min_mm": [
+    -205.9,
+    -291.9,
+    -11.3
+   ],
+   "sebelum_vf": [
+    16,
+    10
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 16,
+    "faces": 10
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Palang kaki tengah",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    1620.0,
+    39.4,
+    191.2
+   ],
+   "min_mm": [
+    -810.0,
+    -19.7,
+    -95.6
+   ],
+   "sebelum_vf": [
+    858,
+    1075
+   ],
+   "tjunc_split": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 97,
+    "boundary": 53,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 858,
+    "faces": 1068
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki kiri",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    39.4,
+    590.6,
+    191.2
+   ],
+   "min_mm": [
+    -19.7,
+    -295.3,
+    -95.6
+   ],
+   "sebelum_vf": [
+    990,
+    1351
+   ],
+   "tjunc_split": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 172,
+    "boundary": 42,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 990,
+    "faces": 1348
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Kaki kanan",
+   "handle": "pface",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    39.4,
+    590.6,
+    191.2
+   ],
+   "min_mm": [
+    -19.7,
+    -295.3,
+    -95.6
+   ],
+   "sebelum_vf": [
+    982,
+    1337
+   ],
+   "tjunc_split": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 139,
+    "boundary": 16,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 980,
+    "faces": 1333
+   },
+   "arsip": false,
+   "tambahan": false
+  }
+ ],
+ "masalah": [
+  {
+   "jenis": "tembus",
+   "a": "Badan kabinet (carcass + top)",
+   "b": "Panel belakang",
+   "bbox_mm": [
+    1761.7,
+    6.8,
+    670.5
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 1
+  },
+  {
+   "jenis": "tembus",
+   "a": "Badan kabinet (carcass + top)",
+   "b": "Sekat vertikal 3",
+   "bbox_mm": [
+    28.1,
+    583.9,
+    652.6
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 9
+  },
+  {
+   "jenis": "tembus",
+   "a": "Badan kabinet (carcass + top)",
+   "b": "Sekat vertikal 2",
+   "bbox_mm": [
+    28.1,
+    583.9,
+    652.6
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 4
+  },
+  {
+   "jenis": "tembus",
+   "a": "Badan kabinet (carcass + top)",
+   "b": "Sekat vertikal 1",
+   "bbox_mm": [
+    28.1,
+    583.9,
+    652.6
+   ],
+   "vertex_a_di_dalam_b": 1,
+   "vertex_b_di_dalam_a": 4
+  },
+  {
+   "jenis": "tembus",
+   "a": "Badan kabinet (carcass + top)",
+   "b": "Rak bay 1",
+   "bbox_mm": [
+    411.7,
+    583.9,
+    22.5
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 5
+  },
+  {
+   "jenis": "tembus",
+   "a": "Badan kabinet (carcass + top)",
+   "b": "Rak bay 2",
+   "bbox_mm": [
+    429.7,
+    583.9,
+    22.5
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 11
+  },
+  {
+   "jenis": "tembus",
+   "a": "Badan kabinet (carcass + top)",
+   "b": "Rak bay 3",
+   "bbox_mm": [
+    429.7,
+    583.9,
+    22.5
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 11
+  },
+  {
+   "jenis": "tembus",
+   "a": "Badan kabinet (carcass + top)",
+   "b": "Rak bay 4",
+   "bbox_mm": [
+    411.7,
+    583.9,
+    22.5
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 5
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang kaki tengah",
+   "b": "Kaki kiri",
+   "bbox_mm": [
+    39.4,
+    39.4,
+    191.2
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 6
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang kaki tengah",
+   "b": "Kaki kanan",
+   "bbox_mm": [
+    39.4,
+    39.4,
+    191.2
+   ],
+   "vertex_a_di_dalam_b": 9,
+   "vertex_b_di_dalam_a": 7
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Handle pintu 3",
+   "nonmanifold": 61,
+   "boundary": 55,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 4870,
+   "faces": 7692
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Pintu 4",
+   "nonmanifold": 104,
+   "boundary": 26,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 888,
+   "faces": 1404
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Handle pintu 2",
+   "nonmanifold": 83,
+   "boundary": 80,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 4863,
+   "faces": 7768
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Handle pintu 1",
+   "nonmanifold": 63,
+   "boundary": 60,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 4923,
+   "faces": 7800
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Handle pintu 4",
+   "nonmanifold": 91,
+   "boundary": 85,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 4879,
+   "faces": 7780
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Pintu 3",
+   "nonmanifold": 124,
+   "boundary": 33,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 883,
+   "faces": 1405
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Pintu 2",
+   "nonmanifold": 116,
+   "boundary": 26,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 888,
+   "faces": 1422
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Pintu 1",
+   "nonmanifold": 138,
+   "boundary": 42,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 897,
+   "faces": 1420
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Badan kabinet (carcass + top)",
+   "nonmanifold": 25,
+   "boundary": 9,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 24,
+   "faces": 23
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Sekat vertikal 3",
+   "nonmanifold": 10,
+   "boundary": 6,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 29,
+   "faces": 25
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Sekat vertikal 2",
+   "nonmanifold": 4,
+   "boundary": 0,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 24,
+   "faces": 24
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Sekat vertikal 1",
+   "nonmanifold": 4,
+   "boundary": 0,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 24,
+   "faces": 24
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Palang kaki tengah",
+   "nonmanifold": 97,
+   "boundary": 53,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 858,
+   "faces": 1068
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Kaki kiri",
+   "nonmanifold": 172,
+   "boundary": 42,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 990,
+   "faces": 1348
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Kaki kanan",
+   "nonmanifold": 139,
+   "boundary": 16,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 980,
+   "faces": 1333
+  }
+ ],
+ "bbox_sentuh": [
+  {
+   "a": "Sekat vertikal 3",
+   "b": "Rak bay 3",
+   "mm": [
+    3.9,
+    583.9,
+    22.5
+   ]
+  },
+  {
+   "a": "Sekat vertikal 3",
+   "b": "Rak bay 4",
+   "mm": [
+    4.3,
+    583.9,
+    22.5
+   ]
+  },
+  {
+   "a": "Sekat vertikal 2",
+   "b": "Rak bay 2",
+   "mm": [
+    3.9,
+    583.9,
+    22.5
+   ]
+  },
+  {
+   "a": "Sekat vertikal 2",
+   "b": "Rak bay 3",
+   "mm": [
+    3.5,
+    583.9,
+    22.5
+   ]
+  },
+  {
+   "a": "Sekat vertikal 1",
+   "b": "Rak bay 1",
+   "mm": [
+    3.9,
+    583.9,
+    22.5
+   ]
+  },
+  {
+   "a": "Sekat vertikal 1",
+   "b": "Rak bay 2",
+   "mm": [
+    3.9,
+    583.9,
+    22.5
+   ]
+  }
+ ],
+ "ukuran_cm": [
+  180.0,
+  65.81,
+  90.0
+ ],
+ "jumlah_objek_mesh": 23,
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\SP 05 ALTFIELD CREDENZA.blend"
+}

@@ -1,0 +1,290 @@
+{
+ "log": [
+  "Top meja: tepi non-manifold 23 -> 19",
+  "Disimpan"
+ ],
+ "part": [
+  {
+   "nama": "Kaki kanan belakang | 28E",
+   "collection": "03 Rangka kaki kanan",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "min_mm": [
+    650.0,
+    200.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "purus-lubang ke palang atas & bawah kanan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 2098
+  },
+  {
+   "nama": "Kaki kanan depan | 291",
+   "collection": "03 Rangka kaki kanan",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "min_mm": [
+    650.0,
+    -300.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "purus-lubang ke palang atas & bawah kanan",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 2213
+  },
+  {
+   "nama": "Kaki kiri belakang | 274",
+   "collection": "02 Rangka kaki kiri",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "min_mm": [
+    -700.0,
+    200.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "purus-lubang ke palang atas & bawah kiri",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 2096
+  },
+  {
+   "nama": "Kaki kiri depan | 278",
+   "collection": "02 Rangka kaki kiri",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    50.0,
+    100.0,
+    720.0
+   ],
+   "min_mm": [
+    -700.0,
+    -300.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "purus-lubang ke palang atas & bawah kiri",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 2213
+  },
+  {
+   "nama": "Kaki ujung kanan | 2A7",
+   "collection": "04 Rangka tengah memanjang",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    100.0,
+    50.0,
+    720.0
+   ],
+   "min_mm": [
+    850.0,
+    -25.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "lubang purus untuk rel atas & bawah memanjang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 2096
+  },
+  {
+   "nama": "Kaki ujung kiri | 27C",
+   "collection": "04 Rangka tengah memanjang",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    100.0,
+    50.0,
+    720.0
+   ],
+   "min_mm": [
+    -950.0,
+    -25.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "lubang purus untuk rel atas & bawah memanjang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 2098
+  },
+  {
+   "nama": "Palang atas kanan | 2BB",
+   "collection": "03 Rangka kaki kanan",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "min_mm": [
+    650.0,
+    -200.0,
+    670.0
+   ],
+   "potong": "",
+   "sambungan": "half-lap dengan rel atas memanjang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 10
+  },
+  {
+   "nama": "Palang atas kiri | 2B7",
+   "collection": "02 Rangka kaki kiri",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "min_mm": [
+    -700.0,
+    -200.0,
+    670.0
+   ],
+   "potong": "",
+   "sambungan": "half-lap dengan rel atas memanjang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 10
+  },
+  {
+   "nama": "Palang bawah kanan | 2B9",
+   "collection": "03 Rangka kaki kanan",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "min_mm": [
+    650.0,
+    -200.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "half-lap dengan rel bawah memanjang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 10
+  },
+  {
+   "nama": "Palang bawah kiri | 2B4",
+   "collection": "02 Rangka kaki kiri",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    50.0,
+    400.0,
+    50.0
+   ],
+   "min_mm": [
+    -700.0,
+    -200.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "half-lap dengan rel bawah memanjang",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 10
+  },
+  {
+   "nama": "Rel atas memanjang | 2BC",
+   "collection": "04 Rangka tengah memanjang",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1700.0,
+    50.0,
+    50.0
+   ],
+   "min_mm": [
+    -850.0,
+    -25.0,
+    670.0
+   ],
+   "potong": "",
+   "sambungan": "half-lap dengan palang atas kiri & kanan; purus ke kaki ujung",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 14
+  },
+  {
+   "nama": "Rel bawah memanjang | 2BA",
+   "collection": "04 Rangka tengah memanjang",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    1700.0,
+    50.0,
+    50.0
+   ],
+   "min_mm": [
+    -850.0,
+    -25.0,
+    0.0
+   ],
+   "potong": "",
+   "sambungan": "half-lap dengan palang bawah kiri & kanan; purus ke kaki ujung",
+   "nonmanifold": 0,
+   "zero_area": 0,
+   "faces": 14
+  },
+  {
+   "nama": "Top meja | 29F",
+   "collection": "01 Top",
+   "peran": "WOOD_A",
+   "ukuran_mm": [
+    2100.0,
+    800.0,
+    30.0
+   ],
+   "min_mm": [
+    -1050.0,
+    -400.0,
+    720.0
+   ],
+   "potong": "",
+   "sambungan": "disekrup ke rel atas memanjang & palang atas lewat klos/bracket",
+   "nonmanifold": 19,
+   "zero_area": 0,
+   "faces": 666
+  }
+ ],
+ "masalah": [],
+ "tembus": [],
+ "bbox_mm": [
+  [
+   -1050.0,
+   -400.0,
+   0.0
+  ],
+  [
+   1050.0,
+   400.0,
+   750.0
+  ]
+ ],
+ "unparented": [],
+ "collection": [
+  "PROD | Beechwood Dining Table Altfield (1)",
+  "  01 Top (1)",
+  "  02 Rangka kaki kiri (4)",
+  "  03 Rangka kaki kanan (4)",
+  "  04 Rangka tengah memanjang (4)"
+ ]
+}

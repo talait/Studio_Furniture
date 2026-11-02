@@ -1,0 +1,350 @@
+{
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD DINNING CHAIR.blend",
+ "scene": "PRODUK | Beechwood Dining Chair",
+ "unit": [
+  "METRIC",
+  "CENTIMETERS",
+  1.0
+ ],
+ "objek": [
+  {
+   "nama": "Dudukan baji belakang | 2E7",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    480.6,
+    253.0,
+    61.0
+   ],
+   "verts": 3665,
+   "faces": 6296,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2E7",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Dudukan baji depan | 2E4",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    530.6,
+    253.0,
+    61.0
+   ],
+   "verts": 3056,
+   "faces": 5303,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2E4",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Dudukan baji kanan | 2E1",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    250.5,
+    490.9,
+    61.0
+   ],
+   "verts": 3243,
+   "faces": 5655,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2E1",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Dudukan baji kiri | 2E1",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    250.5,
+    490.9,
+    61.0
+   ],
+   "verts": 3115,
+   "faces": 5470,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2E1",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Palang belakang | 2C6",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    477.6,
+    30.0,
+    45.0
+   ],
+   "verts": 1117,
+   "faces": 1529,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2C6",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Palang depan | 2C3",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    477.6,
+    30.0,
+    45.0
+   ],
+   "verts": 1129,
+   "faces": 1542,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2C3",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Palang samping kanan | 2C0",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    50.3,
+    402.1,
+    50.7
+   ],
+   "verts": 827,
+   "faces": 1071,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2C0",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Palang samping kiri | 2BD",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    50.3,
+    402.1,
+    50.7
+   ],
+   "verts": 815,
+   "faces": 1058,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2BD",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "PROD | Beechwood Dining Chair"
+   ],
+   "parent": null
+  },
+  {
+   "nama": "Rangka samping kanan (kaki + sandaran) | 2C9",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    67.6,
+    620.2,
+    858.1
+   ],
+   "verts": 4541,
+   "faces": 6782,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2C9",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Rangka samping kiri (kaki + sandaran) | 2BA",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensi_mm": [
+    67.6,
+    620.2,
+    858.1
+   ],
+   "verts": 4126,
+   "faces": 6056,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2BA",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  }
+ ],
+ "koleksi": [
+  {
+   "nama": "Scene Collection",
+   "level": 0,
+   "jumlah_objek": 0
+  },
+  {
+   "nama": "PROD | Beechwood Dining Chair",
+   "level": 1,
+   "jumlah_objek": 1
+  },
+  {
+   "nama": "Kaki",
+   "level": 2,
+   "jumlah_objek": 6
+  },
+  {
+   "nama": "Badan",
+   "level": 2,
+   "jumlah_objek": 4
+  }
+ ],
+ "masalah": [],
+ "koleksi_dikecualikan": [],
+ "root": [
+  {
+   "nama": "PRODUCT_ROOT | Beechwood Dining Chair",
+   "dimensions_cm": [
+    55.09,
+    62.02,
+    85.81
+   ],
+   "source": "BEECHWOOD DINNING CHAIR.dwg",
+   "catatan": "Solid 2CC kosong (tanpa data ACIS, 69 byte) dibuang. Dudukan terdiri dari 4 baji segitiga (pola diagonal): 2E4 depan, 2E7 belakang, 2E1 = kiri+kanan dalam satu solid (dipisah jadi dua objek). Baji dudukan menempati ketinggian yang sama dengan palang samping/depan/belakang (palang berada di dalam dudukan) dan ujung palang masuk ke rangka samping (tenon) - sesuai DWG, tidak diubah."
+  }
+ ],
+ "bbox_aktif_mm": {
+  "min": [
+   -275.5,
+   -310.1,
+   0.0
+  ],
+  "max": [
+   275.5,
+   310.1,
+   858.1
+  ],
+  "ukuran": [
+   550.9,
+   620.2,
+   858.1
+  ]
+ },
+ "jumlah_mesh": 10,
+ "material": [
+  {
+   "nama": "ROLE | WOOD_A",
+   "ns_role": "WOOD_A"
+  }
+ ],
+ "gambar_belum_pack": []
+}

@@ -12,7 +12,7 @@ __pycache__/
 *.blend.part*
 
 # Sesi kerja (dibangun ulang dari template + produk) & hasil render
-03_PROYEK/*.blend
+03_PROYEK/**
 04_HASIL_RENDER/**
 !04_HASIL_RENDER/HASIL_RENDER_DI_SINI.txt
 
@@ -20,3 +20,9 @@ __pycache__/
 99_SISTEM/_kerja/
 99_SISTEM/Uji_Impor.blend*
 *.log
+
+# Backup .blend (lihat CLAUDE.md) & arsip duplikat
+**/_BACKUP/
+*_SEBELUM_*.blend
+02_PRODUK/_LATAR/tekstur_Lifestyle_Doheny.zip
+dev/null/

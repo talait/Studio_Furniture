@@ -1,0 +1,794 @@
+{
+ "nama": "Beechwood Dining Chair",
+ "catatan": [
+  "2E1 dipisah menjadi 'Dudukan baji kiri' (5470 muka)",
+  "2E1 dipisah menjadi 'Dudukan baji kanan' (5655 muka)"
+ ],
+ "part": [
+  {
+   "nama": "Rangka samping kiri (kaki + sandaran) | 2BA",
+   "handle": "2BA",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    67.6,
+    620.2,
+    858.1
+   ],
+   "min_mm": [
+    -33.8,
+    -310.1,
+    -429.0
+   ],
+   "sebelum_vf": [
+    6217,
+    11997
+   ],
+   "tjunc_split": [
+    857,
+    0,
+    182,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 849,
+    "boundary": 423,
+    "zero_area": 1,
+    "islands": 1,
+    "verts": 4126,
+    "faces": 6056
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Palang samping kiri | 2BD",
+   "handle": "2BD",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.3,
+    402.1,
+    50.7
+   ],
+   "min_mm": [
+    -25.2,
+    -201.1,
+    -25.4
+   ],
+   "sebelum_vf": [
+    1704,
+    2998
+   ],
+   "tjunc_split": [
+    128,
+    0,
+    87,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 96,
+    "boundary": 62,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 815,
+    "faces": 1058
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Palang samping kanan | 2C0",
+   "handle": "2C0",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    50.3,
+    402.1,
+    50.7
+   ],
+   "min_mm": [
+    -25.2,
+    -201.0,
+    -25.4
+   ],
+   "sebelum_vf": [
+    1704,
+    2998
+   ],
+   "tjunc_split": [
+    132,
+    0,
+    84,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 106,
+    "boundary": 78,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 827,
+    "faces": 1071
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Palang depan | 2C3",
+   "handle": "2C3",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    477.6,
+    30.0,
+    45.0
+   ],
+   "min_mm": [
+    -238.8,
+    -15.0,
+    -22.5
+   ],
+   "sebelum_vf": [
+    2628,
+    4692
+   ],
+   "tjunc_split": [
+    129,
+    0,
+    106,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 1129,
+    "faces": 1542
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Palang belakang | 2C6",
+   "handle": "2C6",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    477.6,
+    30.0,
+    45.0
+   ],
+   "min_mm": [
+    -238.8,
+    -15.0,
+    -22.5
+   ],
+   "sebelum_vf": [
+    2628,
+    4692
+   ],
+   "tjunc_split": [
+    129,
+    0,
+    105,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 0,
+    "boundary": 0,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 1117,
+    "faces": 1529
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Rangka samping kanan (kaki + sandaran) | 2C9",
+   "handle": "2C9",
+   "peran": "WOOD_A",
+   "grup": "Kaki",
+   "ukuran_mm": [
+    67.6,
+    620.2,
+    858.1
+   ],
+   "min_mm": [
+    -33.8,
+    -310.1,
+    -429.0
+   ],
+   "sebelum_vf": [
+    7232,
+    14072
+   ],
+   "tjunc_split": [
+    858,
+    0,
+    160,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 837,
+    "boundary": 415,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 4541,
+    "faces": 6782
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Dudukan baji depan | 2E4",
+   "handle": "2E4",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    530.6,
+    253.0,
+    61.0
+   ],
+   "min_mm": [
+    -265.3,
+    -126.5,
+    -30.5
+   ],
+   "sebelum_vf": [
+    8569,
+    15446
+   ],
+   "tjunc_split": [
+    137,
+    0,
+    26,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 328,
+    "boundary": 120,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 3056,
+    "faces": 5303
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Dudukan baji belakang | 2E7",
+   "handle": "2E7",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    480.6,
+    253.0,
+    61.0
+   ],
+   "min_mm": [
+    -240.3,
+    -126.5,
+    -30.5
+   ],
+   "sebelum_vf": [
+    9761,
+    17628
+   ],
+   "tjunc_split": [
+    146,
+    0,
+    4,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 326,
+    "boundary": 102,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 3665,
+    "faces": 6296
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Dudukan baji kiri | 2E1",
+   "handle": "2E1",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    250.5,
+    490.9,
+    61.0
+   ],
+   "min_mm": [
+    -125.2,
+    -245.5,
+    -30.5
+   ],
+   "sebelum_vf": [
+    17713,
+    32362
+   ],
+   "tjunc_split": [
+    268,
+    0,
+    21,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 276,
+    "boundary": 101,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 3115,
+    "faces": 5470
+   },
+   "arsip": false,
+   "tambahan": false
+  },
+  {
+   "nama": "Dudukan baji kanan | 2E1",
+   "handle": "2E1",
+   "peran": "WOOD_A",
+   "grup": "Badan",
+   "ukuran_mm": [
+    250.5,
+    490.9,
+    61.0
+   ],
+   "min_mm": [
+    -125.2,
+    -245.5,
+    -30.5
+   ],
+   "sebelum_vf": [
+    17713,
+    32362
+   ],
+   "tjunc_split": [
+    268,
+    0,
+    21,
+    0
+   ],
+   "sesudah": {
+    "nonmanifold": 301,
+    "boundary": 113,
+    "zero_area": 0,
+    "islands": 1,
+    "verts": 3243,
+    "faces": 5655
+   },
+   "arsip": false,
+   "tambahan": false
+  }
+ ],
+ "masalah": [
+  {
+   "jenis": "tembus",
+   "a": "Rangka samping kiri (kaki + sandaran) | 2BA",
+   "b": "Palang samping kiri | 2BD",
+   "bbox_mm": [
+    50.3,
+    402.1,
+    50.7
+   ],
+   "vertex_a_di_dalam_b": 113,
+   "vertex_b_di_dalam_a": 0
+  },
+  {
+   "jenis": "tembus",
+   "a": "Rangka samping kiri (kaki + sandaran) | 2BA",
+   "b": "Palang depan | 2C3",
+   "bbox_mm": [
+    29.9,
+    30.0,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 1,
+   "vertex_b_di_dalam_a": 134
+  },
+  {
+   "jenis": "tembus",
+   "a": "Rangka samping kiri (kaki + sandaran) | 2BA",
+   "b": "Palang belakang | 2C6",
+   "bbox_mm": [
+    29.9,
+    30.0,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 1,
+   "vertex_b_di_dalam_a": 133
+  },
+  {
+   "jenis": "tembus",
+   "a": "Rangka samping kiri (kaki + sandaran) | 2BA",
+   "b": "Dudukan baji depan | 2E4",
+   "bbox_mm": [
+    56.4,
+    253.0,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 2,
+   "vertex_b_di_dalam_a": 1056
+  },
+  {
+   "jenis": "tembus",
+   "a": "Rangka samping kiri (kaki + sandaran) | 2BA",
+   "b": "Dudukan baji belakang | 2E7",
+   "bbox_mm": [
+    31.4,
+    253.0,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 128,
+   "vertex_b_di_dalam_a": 919
+  },
+  {
+   "jenis": "tembus",
+   "a": "Rangka samping kiri (kaki + sandaran) | 2BA",
+   "b": "Dudukan baji kiri | 2E1",
+   "bbox_mm": [
+    62.8,
+    490.9,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 6,
+   "vertex_b_di_dalam_a": 2183
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang samping kiri | 2BD",
+   "b": "Dudukan baji depan | 2E4",
+   "bbox_mm": [
+    47.7,
+    204.9,
+    50.7
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 15
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang samping kiri | 2BD",
+   "b": "Dudukan baji belakang | 2E7",
+   "bbox_mm": [
+    22.7,
+    197.2,
+    50.7
+   ],
+   "vertex_a_di_dalam_b": 43,
+   "vertex_b_di_dalam_a": 146
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang samping kiri | 2BD",
+   "b": "Dudukan baji kiri | 2E1",
+   "bbox_mm": [
+    50.3,
+    402.1,
+    50.7
+   ],
+   "vertex_a_di_dalam_b": 815,
+   "vertex_b_di_dalam_a": 107
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang samping kanan | 2C0",
+   "b": "Rangka samping kanan (kaki + sandaran) | 2C9",
+   "bbox_mm": [
+    50.3,
+    402.1,
+    50.7
+   ],
+   "vertex_a_di_dalam_b": 49,
+   "vertex_b_di_dalam_a": 532
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang samping kanan | 2C0",
+   "b": "Dudukan baji depan | 2E4",
+   "bbox_mm": [
+    49.7,
+    204.9,
+    50.7
+   ],
+   "vertex_a_di_dalam_b": 82,
+   "vertex_b_di_dalam_a": 29
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang samping kanan | 2C0",
+   "b": "Dudukan baji belakang | 2E7",
+   "bbox_mm": [
+    24.8,
+    197.2,
+    50.7
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 872
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang samping kanan | 2C0",
+   "b": "Dudukan baji kanan | 2E1",
+   "bbox_mm": [
+    50.3,
+    402.1,
+    50.7
+   ],
+   "vertex_a_di_dalam_b": 827,
+   "vertex_b_di_dalam_a": 475
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang depan | 2C3",
+   "b": "Rangka samping kanan (kaki + sandaran) | 2C9",
+   "bbox_mm": [
+    31.9,
+    30.0,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 126,
+   "vertex_b_di_dalam_a": 0
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang depan | 2C3",
+   "b": "Dudukan baji depan | 2E4",
+   "bbox_mm": [
+    477.6,
+    30.0,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 1026,
+   "vertex_b_di_dalam_a": 0
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang depan | 2C3",
+   "b": "Dudukan baji kiri | 2E1",
+   "bbox_mm": [
+    217.6,
+    27.3,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 24,
+   "vertex_b_di_dalam_a": 15
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang depan | 2C3",
+   "b": "Dudukan baji kanan | 2E1",
+   "bbox_mm": [
+    217.5,
+    27.3,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 25,
+   "vertex_b_di_dalam_a": 5
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang belakang | 2C6",
+   "b": "Rangka samping kanan (kaki + sandaran) | 2C9",
+   "bbox_mm": [
+    31.9,
+    30.0,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 127,
+   "vertex_b_di_dalam_a": 2
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang belakang | 2C6",
+   "b": "Dudukan baji belakang | 2E7",
+   "bbox_mm": [
+    477.6,
+    30.0,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 935,
+   "vertex_b_di_dalam_a": 6
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang belakang | 2C6",
+   "b": "Dudukan baji kiri | 2E1",
+   "bbox_mm": [
+    217.6,
+    23.6,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 67,
+   "vertex_b_di_dalam_a": 4
+  },
+  {
+   "jenis": "tembus",
+   "a": "Palang belakang | 2C6",
+   "b": "Dudukan baji kanan | 2E1",
+   "bbox_mm": [
+    217.5,
+    23.6,
+    45.0
+   ],
+   "vertex_a_di_dalam_b": 65,
+   "vertex_b_di_dalam_a": 12
+  },
+  {
+   "jenis": "tembus",
+   "a": "Rangka samping kanan (kaki + sandaran) | 2C9",
+   "b": "Dudukan baji depan | 2E4",
+   "bbox_mm": [
+    58.4,
+    253.0,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 170,
+   "vertex_b_di_dalam_a": 1045
+  },
+  {
+   "jenis": "tembus",
+   "a": "Rangka samping kanan (kaki + sandaran) | 2C9",
+   "b": "Dudukan baji belakang | 2E7",
+   "bbox_mm": [
+    33.4,
+    253.0,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 51,
+   "vertex_b_di_dalam_a": 904
+  },
+  {
+   "jenis": "tembus",
+   "a": "Rangka samping kanan (kaki + sandaran) | 2C9",
+   "b": "Dudukan baji kanan | 2E1",
+   "bbox_mm": [
+    64.8,
+    490.9,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 55,
+   "vertex_b_di_dalam_a": 2136
+  },
+  {
+   "jenis": "tembus",
+   "a": "Dudukan baji depan | 2E4",
+   "b": "Dudukan baji kiri | 2E1",
+   "bbox_mm": [
+    244.0,
+    245.3,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 0,
+   "vertex_b_di_dalam_a": 37
+  },
+  {
+   "jenis": "tembus",
+   "a": "Dudukan baji depan | 2E4",
+   "b": "Dudukan baji kanan | 2E1",
+   "bbox_mm": [
+    244.0,
+    245.3,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 19,
+   "vertex_b_di_dalam_a": 46
+  },
+  {
+   "jenis": "tembus",
+   "a": "Dudukan baji belakang | 2E7",
+   "b": "Dudukan baji kiri | 2E1",
+   "bbox_mm": [
+    219.1,
+    245.6,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 1,
+   "vertex_b_di_dalam_a": 119
+  },
+  {
+   "jenis": "tembus",
+   "a": "Dudukan baji belakang | 2E7",
+   "b": "Dudukan baji kanan | 2E1",
+   "bbox_mm": [
+    219.1,
+    245.6,
+    61.0
+   ],
+   "vertex_a_di_dalam_b": 1,
+   "vertex_b_di_dalam_a": 28
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Rangka samping kiri (kaki + sandaran) | 2BA",
+   "nonmanifold": 849,
+   "boundary": 423,
+   "zero_area": 1,
+   "islands": 1,
+   "verts": 4126,
+   "faces": 6056
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Palang samping kiri | 2BD",
+   "nonmanifold": 96,
+   "boundary": 62,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 815,
+   "faces": 1058
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Palang samping kanan | 2C0",
+   "nonmanifold": 106,
+   "boundary": 78,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 827,
+   "faces": 1071
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Rangka samping kanan (kaki + sandaran) | 2C9",
+   "nonmanifold": 837,
+   "boundary": 415,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 4541,
+   "faces": 6782
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Dudukan baji depan | 2E4",
+   "nonmanifold": 328,
+   "boundary": 120,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 3056,
+   "faces": 5303
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Dudukan baji belakang | 2E7",
+   "nonmanifold": 326,
+   "boundary": 102,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 3665,
+   "faces": 6296
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Dudukan baji kiri | 2E1",
+   "nonmanifold": 276,
+   "boundary": 101,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 3115,
+   "faces": 5470
+  },
+  {
+   "jenis": "mesh",
+   "nama": "Dudukan baji kanan | 2E1",
+   "nonmanifold": 301,
+   "boundary": 113,
+   "zero_area": 0,
+   "islands": 1,
+   "verts": 3243,
+   "faces": 5655
+  }
+ ],
+ "ukuran_cm": [
+  55.09,
+  62.02,
+  85.81
+ ],
+ "jumlah_objek_mesh": 10,
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD DINNING CHAIR.blend"
+}

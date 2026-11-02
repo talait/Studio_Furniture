@@ -1,0 +1,522 @@
+{
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD BEDSIDE.blend",
+ "scene": "PRODUK | Beechwood Bedside",
+ "unit": [
+  "METRIC",
+  "CENTIMETERS",
+  1.0
+ ],
+ "objek": [
+  {
+   "nama": "Badan kabinet (carcass + top) | 2CF",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensi_mm": [
+    550.0,
+    420.0,
+    410.0
+   ],
+   "verts": 2491,
+   "faces": 3985,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2CF",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "DRAWER_1 | Beechwood Bedside",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "ns_drawer": 1,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 1 | 2D6",
+    "Handle laci 1 | 2D3",
+    "Laci 1 / belakang 12 mm",
+    "Laci 1 / dasar 7 mm",
+    "Laci 1 / sisi kanan 12 mm",
+    "Laci 1 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "Front laci 1 | 2D6",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Bedside",
+   "dimensi_mm": [
+    470.0,
+    30.0,
+    117.0
+   ],
+   "verts": 4113,
+   "faces": 6718,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2D6",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 1 | 2D3",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_1 | Beechwood Bedside",
+   "dimensi_mm": [
+    163.7,
+    21.0,
+    8.0
+   ],
+   "verts": 6303,
+   "faces": 10696,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "2D3",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki belakang kanan | 2C5",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    500.0
+   ],
+   "verts": 2373,
+   "faces": 4307,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2C5",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki belakang kiri | 2CB",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    500.0
+   ],
+   "verts": 2384,
+   "faces": 4324,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2CB",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki depan kanan | 2C2",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    500.0
+   ],
+   "verts": 2385,
+   "faces": 4345,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2C2",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki depan kiri | 2C8",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    500.0
+   ],
+   "verts": 2380,
+   "faces": 4308,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2C8",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Bedside",
+   "dimensi_mm": [
+    446.0,
+    12.0,
+    87.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Bedside",
+   "dimensi_mm": [
+    446.0,
+    398.2,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Bedside",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    87.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Bedside",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    87.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Panel belakang | 2D0",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensi_mm": [
+    470.0,
+    9.0,
+    370.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2D0",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "PRODUCT_ROOT | Beechwood Bedside",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "PROD | Beechwood Bedside"
+   ],
+   "parent": null
+  },
+  {
+   "nama": "Rak dasar | 2D8",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensi_mm": [
+    550.1,
+    500.1,
+    18.0
+   ],
+   "verts": 2404,
+   "faces": 4166,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2D8",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Rel atas belakang | 2CE",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensi_mm": [
+    470.0,
+    40.0,
+    40.0
+   ],
+   "verts": 682,
+   "faces": 1121,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2CE",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Rel atas depan | 2D7",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensi_mm": [
+    470.0,
+    40.0,
+    40.0
+   ],
+   "verts": 679,
+   "faces": 1119,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2D7",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  }
+ ],
+ "koleksi": [
+  {
+   "nama": "Scene Collection",
+   "level": 0,
+   "jumlah_objek": 0
+  },
+  {
+   "nama": "PROD | Beechwood Bedside",
+   "level": 1,
+   "jumlah_objek": 1
+  },
+  {
+   "nama": "Laci",
+   "level": 2,
+   "jumlah_objek": 6
+  },
+  {
+   "nama": "Kaki",
+   "level": 2,
+   "jumlah_objek": 4
+  },
+  {
+   "nama": "Badan",
+   "level": 2,
+   "jumlah_objek": 5
+  },
+  {
+   "nama": "Hardware",
+   "level": 2,
+   "jumlah_objek": 1
+  }
+ ],
+ "masalah": [],
+ "koleksi_dikecualikan": [],
+ "root": [
+  {
+   "nama": "PRODUCT_ROOT | Beechwood Bedside",
+   "dimensions_cm": [
+    55.0,
+    50.52,
+    50.0
+   ],
+   "source": "BEECHWOOD BEDSIDE.dwg",
+   "catatan": "Front laci diberi celah bayangan 1,5 mm (standar v2); handle ikut. Rak dasar (panel 18 mm, 550 x 500) di DWG digambar menerus sehingga keempat kaki menembusnya di sudut; takik boolean dicoba (EXACT dan FLOAT) tetapi hasilnya pecah karena mesh tessellasi rak, jadi rak dibiarkan sesuai DWG (tumpang tindih tersembunyi di dalam kaki, tidak terlihat)."
+  }
+ ],
+ "bbox_aktif_mm": {
+  "min": [
+   -275.0,
+   -252.6,
+   0.0
+  ],
+  "max": [
+   275.0,
+   252.6,
+   500.0
+  ],
+  "ukuran": [
+   550.0,
+   505.2,
+   500.0
+  ]
+ },
+ "jumlah_mesh": 15,
+ "material": [
+  {
+   "nama": "ROLE | HANDLE",
+   "ns_role": "HANDLE"
+  },
+  {
+   "nama": "ROLE | WOOD_A",
+   "ns_role": "WOOD_A"
+  },
+  {
+   "nama": "ROLE | WOOD_B",
+   "ns_role": "WOOD_B"
+  }
+ ],
+ "gambar_belum_pack": []
+}

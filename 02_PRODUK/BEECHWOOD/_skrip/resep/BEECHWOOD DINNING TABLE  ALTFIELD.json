@@ -1,0 +1,82 @@
+{
+ "nama": "Beechwood Dining Table Altfield",
+ "kategori": "MEJA_MAKAN",
+ "dwg": "BEECHWOOD DINNING TABLE  ALTFIELD.dwg",
+ "skala": 0.001,
+ "mode": "solid",
+ "sumber_obj": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\obj\\BEECHWOOD DINNING TABLE  ALTFIELD.obj",
+ "file_out": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD DINNING TABLE  ALTFIELD.blend",
+ "thumb": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\thumb\\BEECHWOOD DINNING TABLE  ALTFIELD.png",
+ "laporan_json": "C:\\Users\\Staff\\AppData\\Local\\Temp\\claude\\C--Users-Staff-Documents-Studio-Furniture\\d7b4d6f4-11df-468c-93a9-78d023c4cb41\\scratchpad\\laporan\\BEECHWOOD DINNING TABLE  ALTFIELD.json",
+ "geometry_source": "DWG 2018 3DSOLID (ACIS SAB) -> tessellasi dwg2obj (LibreDWG + ezdxf)",
+ "unit_assumption": "angka DWG dibaca sebagai mm (INSUNITS=1 inci di header, tetapi ukuran hanya masuk akal sebagai mm)",
+ "weld_m": 1e-05,
+ "part": {
+  "29F": {
+   "nama": "Top meja",
+   "peran": "WOOD_A",
+   "grup": "Badan"
+  },
+  "278": {
+   "nama": "Kaki kiri depan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "274": {
+   "nama": "Kaki kiri belakang",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "27C": {
+   "nama": "Kaki ujung kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "291": {
+   "nama": "Kaki kanan depan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "28E": {
+   "nama": "Kaki kanan belakang",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2A7": {
+   "nama": "Kaki ujung kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2B4": {
+   "nama": "Palang bawah kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2B7": {
+   "nama": "Palang atas kiri",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2B9": {
+   "nama": "Palang bawah kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2BB": {
+   "nama": "Palang atas kanan",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2BA": {
+   "nama": "Rel bawah memanjang",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  },
+  "2BC": {
+   "nama": "Rel atas memanjang",
+   "peran": "WOOD_A",
+   "grup": "Kaki"
+  }
+ },
+ "catatan": "Handle 29F (top) punya >1 blob ACIS di file (riwayat edit); versi terakhir dipakai (2100 x 800 x 30 mm). Garis 2D (LINE/LWPOLYLINE tampak gambar) diabaikan."
+}

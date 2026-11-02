@@ -1,0 +1,1219 @@
+{
+ "file": "C:\\Users\\Staff\\Documents\\Studio_Furniture\\02_PRODUK\\BEECHWOOD\\BEECHWOOD TALLBOY.blend",
+ "scene": "PRODUK | Beechwood Tallboy",
+ "unit": [
+  "METRIC",
+  "CENTIMETERS",
+  1.0
+ ],
+ "objek": [
+  {
+   "nama": "Badan kabinet (carcass + top) | 2DF",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "dimensi_mm": [
+    600.0,
+    420.0,
+    1010.0
+   ],
+   "verts": 2491,
+   "faces": 3990,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2DF",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "DRAWER_1 | Beechwood Tallboy",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "ns_drawer": 1,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 1 | 2F6",
+    "Handle laci 1 | 2F3",
+    "Laci 1 / belakang 12 mm",
+    "Laci 1 / dasar 7 mm",
+    "Laci 1 / sisi kanan 12 mm",
+    "Laci 1 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "DRAWER_2 | Beechwood Tallboy",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "ns_drawer": 2,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 2 | 2F2",
+    "Handle laci 2 | 2EF",
+    "Laci 2 / belakang 12 mm",
+    "Laci 2 / dasar 7 mm",
+    "Laci 2 / sisi kanan 12 mm",
+    "Laci 2 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "DRAWER_3 | Beechwood Tallboy",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "ns_drawer": 3,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 3 | 2EE",
+    "Handle laci 3 | 2EB",
+    "Laci 3 / belakang 12 mm",
+    "Laci 3 / dasar 7 mm",
+    "Laci 3 / sisi kanan 12 mm",
+    "Laci 3 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "DRAWER_4 | Beechwood Tallboy",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "ns_drawer": 4,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 4 | 2EA",
+    "Handle laci 4 | 2E7",
+    "Laci 4 / belakang 12 mm",
+    "Laci 4 / dasar 7 mm",
+    "Laci 4 / sisi kanan 12 mm",
+    "Laci 4 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "DRAWER_5 | Beechwood Tallboy",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "ns_drawer": 5,
+   "Open (m)": 0.0,
+   "driver": true,
+   "anak": [
+    "Front laci 5 | 2E6",
+    "Handle laci 5 | 2E3",
+    "Laci 5 / belakang 12 mm",
+    "Laci 5 / dasar 7 mm",
+    "Laci 5 / sisi kanan 12 mm",
+    "Laci 5 / sisi kiri 12 mm"
+   ]
+  },
+  {
+   "nama": "Front laci 1 | 2F6",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Tallboy",
+   "dimensi_mm": [
+    515.2,
+    30.0,
+    191.0
+   ],
+   "verts": 4239,
+   "faces": 6778,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2F6",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Front laci 2 | 2F2",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood Tallboy",
+   "dimensi_mm": [
+    515.2,
+    30.0,
+    191.0
+   ],
+   "verts": 4228,
+   "faces": 6776,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2F2",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Front laci 3 | 2EE",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood Tallboy",
+   "dimensi_mm": [
+    515.2,
+    30.0,
+    191.0
+   ],
+   "verts": 4231,
+   "faces": 6779,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2EE",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Front laci 4 | 2EA",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood Tallboy",
+   "dimensi_mm": [
+    515.2,
+    30.0,
+    191.0
+   ],
+   "verts": 4244,
+   "faces": 6791,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2EA",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Front laci 5 | 2E6",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood Tallboy",
+   "dimensi_mm": [
+    515.2,
+    30.0,
+    191.0
+   ],
+   "verts": 4230,
+   "faces": 6769,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2E6",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 1 | 2F3",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_1 | Beechwood Tallboy",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6278,
+   "faces": 10679,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "2F3",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 2 | 2EF",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_2 | Beechwood Tallboy",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6286,
+   "faces": 10687,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "2EF",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 3 | 2EB",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_3 | Beechwood Tallboy",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6292,
+   "faces": 10692,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "2EB",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 4 | 2E7",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_4 | Beechwood Tallboy",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6293,
+   "faces": 10699,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "2E7",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Handle laci 5 | 2E3",
+   "tipe": "MESH",
+   "koleksi": [
+    "Hardware"
+   ],
+   "parent": "DRAWER_5 | Beechwood Tallboy",
+   "dimensi_mm": [
+    163.6,
+    21.0,
+    8.0
+   ],
+   "verts": 6300,
+   "faces": 10714,
+   "material": [
+    "ROLE | HANDLE"
+   ],
+   "ns_role_part": "HANDLE",
+   "cad_handle": "2E3",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki belakang kanan | 2D4",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    1100.0
+   ],
+   "verts": 2378,
+   "faces": 4261,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2D4",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki belakang kiri | 2DA",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    1100.0
+   ],
+   "verts": 2394,
+   "faces": 4276,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2DA",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki depan kanan | 2D1",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    1100.0
+   ],
+   "verts": 2387,
+   "faces": 4288,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2D1",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Kaki depan kiri | 2D7",
+   "tipe": "MESH",
+   "koleksi": [
+    "Kaki"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "dimensi_mm": [
+    40.0,
+    40.0,
+    1100.0
+   ],
+   "verts": 2380,
+   "faces": 4260,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2D7",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    12.0,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    398.2,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 1 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_1 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 2 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    12.0,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 2 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    398.2,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 2 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 2 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_2 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 3 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    12.0,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 3 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    398.2,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 3 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 3 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_3 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 4 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    12.0,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 4 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    398.2,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 4 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 4 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_4 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 5 / belakang 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    12.0,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 5 / dasar 7 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood Tallboy",
+   "dimensi_mm": [
+    491.2,
+    398.2,
+    7.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 5 / sisi kanan 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Laci 5 / sisi kiri 12 mm",
+   "tipe": "MESH",
+   "koleksi": [
+    "Laci"
+   ],
+   "parent": "DRAWER_5 | Beechwood Tallboy",
+   "dimensi_mm": [
+    12.0,
+    398.2,
+    161.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_B"
+   ],
+   "ns_role_part": "WOOD_B",
+   "cad_handle": null,
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Panel belakang | 2E0",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "dimensi_mm": [
+    520.0,
+    9.0,
+    970.0
+   ],
+   "verts": 8,
+   "faces": 6,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2E0",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "PRODUCT_ROOT | Beechwood Tallboy",
+   "tipe": "EMPTY",
+   "koleksi": [
+    "PROD | Beechwood Tallboy"
+   ],
+   "parent": null
+  },
+  {
+   "nama": "Rel atas belakang | 2DE",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "dimensi_mm": [
+    520.0,
+    40.0,
+    40.0
+   ],
+   "verts": 679,
+   "faces": 1121,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2DE",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  },
+  {
+   "nama": "Rel atas depan | 2DD",
+   "tipe": "MESH",
+   "koleksi": [
+    "Badan"
+   ],
+   "parent": "PRODUCT_ROOT | Beechwood Tallboy",
+   "dimensi_mm": [
+    520.0,
+    40.0,
+    40.0
+   ],
+   "verts": 682,
+   "faces": 1122,
+   "material": [
+    "ROLE | WOOD_A"
+   ],
+   "ns_role_part": "WOOD_A",
+   "cad_handle": "2DD",
+   "modifier": [
+    "BEVEL",
+    "WEIGHTED_NORMAL"
+   ],
+   "uv": [
+    "UV meter"
+   ]
+  }
+ ],
+ "koleksi": [
+  {
+   "nama": "Scene Collection",
+   "level": 0,
+   "jumlah_objek": 0
+  },
+  {
+   "nama": "PROD | Beechwood Tallboy",
+   "level": 1,
+   "jumlah_objek": 1
+  },
+  {
+   "nama": "Laci",
+   "level": 2,
+   "jumlah_objek": 30
+  },
+  {
+   "nama": "Kaki",
+   "level": 2,
+   "jumlah_objek": 4
+  },
+  {
+   "nama": "Badan",
+   "level": 2,
+   "jumlah_objek": 4
+  },
+  {
+   "nama": "Hardware",
+   "level": 2,
+   "jumlah_objek": 5
+  }
+ ],
+ "masalah": [],
+ "koleksi_dikecualikan": [],
+ "root": [
+  {
+   "nama": "PRODUCT_ROOT | Beechwood Tallboy",
+   "dimensions_cm": [
+    60.0,
+    50.52,
+    110.0
+   ],
+   "source": "BEECHWOOD TALLBOY.dwg",
+   "catatan": "Di DWG 5 front (5 x 194,7 = 973,5 mm) lebih tinggi 3,5 mm dari bukaan (970 mm) sehingga front teratas menembus rel atas 2,9 mm; front disusun ulang rata dalam bukaan dengan celah 1,5 mm (tinggi tiap front 191 mm)."
+  }
+ ],
+ "bbox_aktif_mm": {
+  "min": [
+   -300.0,
+   -252.6,
+   0.0
+  ],
+  "max": [
+   300.0,
+   252.6,
+   1100.0
+  ],
+  "ukuran": [
+   600.0,
+   505.2,
+   1100.0
+  ]
+ },
+ "jumlah_mesh": 38,
+ "material": [
+  {
+   "nama": "ROLE | HANDLE",
+   "ns_role": "HANDLE"
+  },
+  {
+   "nama": "ROLE | WOOD_A",
+   "ns_role": "WOOD_A"
+  },
+  {
+   "nama": "ROLE | WOOD_B",
+   "ns_role": "WOOD_B"
+  }
+ ],
+ "gambar_belum_pack": []
+}
